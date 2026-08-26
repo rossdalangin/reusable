@@ -1,0 +1,92 @@
+/*
+ * Client Growth System - Core Modular Stylesheet (CC-WP-CSS-001)
+ */
+
+:root {
+  --cgs-primary: #0f172a;
+  --cgs-accent: #2563eb;
+  --cgs-accent-hover: #1d4ed8;
+  --cgs-bg: #ffffff;
+  --cgs-surface: #f8fafc;
+  --cgs-text: #334155;
+  --cgs-text-dark: #0f172a;
+  --cgs-radius: 8px;
+  --cgs-font: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+.cgs-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+.cgs-hero-section {
+  padding: 5rem 0;
+  background-color: var(--cgs-surface);
+  text-align: center;
+}
+
+.cgs-badge {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  background: #dbeafe;
+  color: var(--cgs-accent);
+  font-weight: 600;
+  border-radius: 9999px;
+  font-size: 0.875rem;
+  margin-bottom: 1rem;
+}
+
+.cgs-hero-title {
+  font-size: 2.75rem;
+  line-height: 1.2;
+  color: var(--cgs-text-dark);
+  margin-bottom: 1.25rem;
+}
+
+.cgs-hero-subtitle {
+  font-size: 1.25rem;
+  color: var(--cgs-text);
+  max-width: 750px;
+  margin: 0 auto 2rem auto;
+}
+
+.cgs-btn-primary {
+  display: inline-block;
+  background-color: var(--cgs-accent);
+  color: #fff;
+  padding: 0.875rem 2rem;
+  font-weight: 600;
+  border-radius: var(--cgs-radius);
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+}
+
+.cgs-btn-primary:hover,
+.cgs-btn-primary:focus {
+  background-color: var(--cgs-accent-hover);
+}
+
+.cgs-faq-section {
+  padding: 4rem 0;
+}
+
+.cgs-faq-item {
+  border-bottom: 1px solid #e2e8f0;
+  padding: 1rem 0;
+}
+
+.cgs-faq-toggle {
+  background: none;
+  border: none;
+  font-size: 1.125rem;
+  font-weight: 600;
+  color: var(--cgs-text-dark);
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+}
+
+.cgs-faq-answer[hidden] {
+  display: none;
+}
