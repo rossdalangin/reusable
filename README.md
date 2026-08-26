@@ -30,6 +30,7 @@ CLIENT GROWTH SYSTEM
 ├── 19 Reporting Dashboard/              # Easy Monthly Performance Report (CC-REP-001)
 ├── 20 CRO System/                       # 5 Simple Conversion Checks (CC-CRO-001)
 ├── 21 Client Training/                  # Friendly Client User Manual (CC-TRN-001)
+├── 22 Downloadable Client Resources/    # Worksheets, Workbooks & Cheat Sheets (CC-WKS-001..005)
 └── productized-kits/                    # Simple Package Deliverables (CC-KIT)
 ```
 
