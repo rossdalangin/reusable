@@ -1,4 +1,4 @@
-# CC-LP-001: LEAD MAGNET LANDING PAGE TEMPLATE
+# CC-LP-001: SIMPLE LEAD MAGNET LANDING PAGE
 
 **Asset ID:** CC-LP-001
 **Category:** Landing Page System
@@ -6,26 +6,22 @@
 
 ---
 
-## 1. LANDING PAGE STRUCTURE & SPECIFICATION
+## PAGE COPY WRITTEN FOR REAL PEOPLE
 
-### 1. Headline & Hero
-- **Headline:** How [TARGET_AUDIENCE] Can Solve [CORE_PROBLEM] Without [PRIMARY_PAIN_POINT]
-- **Subheadline:** Download the Free Blueprint to master [UNIQUE_MECHANISM] and achieve [DESIRED_OUTCOME] in 30 days.
-- **Primary CTA:** "Download Free Guide Now"
+### 1. Main Headline & Hook
+- **Big Headline:** How [TARGET_AUDIENCE] Can Easily Solve [CORE_PROBLEM] (Without Stress or Tech Hassles)
+- **Sub-headline:** Download our free guide to see how [UNIQUE_MECHANISM] helps you reach [DESIRED_OUTCOME] step-by-step.
+- **Button Text:** "Get My Free Guide Now"
 
-### 2. Pain Points & Agitation
-- Are you tired of struggling with [CORE_PROBLEM]?
-- Spending hours trying to fix issues without seeing [DESIRED_OUTCOME]?
-- Feeling frustrated by conflicting advice from traditional alternatives?
+### 2. Does This Sound Like You?
+- Are you frustrated by [CORE_PROBLEM]?
+- Tired of wasting money on fancy tools that don't bring in real clients?
+- Feeling overwhelmed by confusing technical advice?
 
-### 3. Solution & Benefits
-- Discover the step-by-step framework used by [BUSINESS_NAME].
-- Learn how to implement [UNIQUE_MECHANISM] without technical complexity.
-- Unlock predictable growth and measurable ROI.
+### 3. Here Is How We Make It Simple
+- Learn the exact 5 steps used by [BUSINESS_NAME].
+- See how [UNIQUE_MECHANISM] works in everyday plain English.
+- Start getting more leads without working extra hours.
 
-### 4. Social Proof & Testimonials
-- "Implementing this guide changed our business trajectory completely within 30 days." — Client Success Story
-
-### 5. Lead Capture Form (`CC-FORM-002`)
-- **Fields:** First Name, Work Email, Business Role.
-- **Button:** "Send Me The Blueprint →"
+### 4. Simple Form (`CC-FORM-002`)
+- Just enter your name and email to get instant access.

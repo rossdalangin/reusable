@@ -2,18 +2,18 @@
 /**
  * Component: Hero Section (CC-WP-001)
  * Package: Client Growth System Generator
- * Description: High-converting hero template part with escaped variables and accessibility support.
+ * Description: Friendly, simple hero section built for clarity and conversions.
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
-	exit; // Exit if accessed directly.
+	exit;
 }
 
-$cgs_hero_headline    = get_query_var( 'cgs_hero_headline', 'Turn Your Website Into a Predictable Client Acquisition Engine' );
-$cgs_hero_subheadline = get_query_var( 'cgs_hero_subheadline', 'We help [TARGET_AUDIENCE] solve [CORE_PROBLEM] and achieve [DESIRED_OUTCOME] using [UNIQUE_MECHANISM].' );
-$cgs_hero_cta_text    = get_query_var( 'cgs_hero_cta_text', 'Book a Free Strategy Call' );
+$cgs_hero_headline    = get_query_var( 'cgs_hero_headline', 'Turn Your Website Into a Consistent Source of New Clients' );
+$cgs_hero_subheadline = get_query_var( 'cgs_hero_subheadline', 'We help [TARGET_AUDIENCE] solve [CORE_PROBLEM] so you can get [DESIRED_OUTCOME] without stress.' );
+$cgs_hero_cta_text    = get_query_var( 'cgs_hero_cta_text', 'Book a Free Strategy Chat' );
 $cgs_hero_cta_url     = get_query_var( 'cgs_hero_cta_url', '[BOOKING_URL]' );
-$cgs_hero_badge       = get_query_var( 'cgs_hero_badge', 'Proven Growth System' );
+$cgs_hero_badge       = get_query_var( 'cgs_hero_badge', 'Simple & Proven Growth System' );
 ?>
 
 <section class="cgs-hero-section" aria-label="Hero Section">

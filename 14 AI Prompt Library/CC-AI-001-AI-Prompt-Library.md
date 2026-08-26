@@ -1,4 +1,4 @@
-# CC-AI-001: REUSABLE AI PROMPT LIBRARY FOR CLIENT GROWTH
+# CC-AI-001: EASY AI PROMPTS FOR BUSINESS OWNERS
 
 **Asset ID:** CC-AI-001
 **Category:** AI Prompt Library
@@ -6,20 +6,16 @@
 
 ---
 
-## 1. STRATEGY: OFFER & POSITIONING PROMPT
+## 1. PROMPT FOR CREATING CLEAR OFFERS
 
-- **Role:** Elite Direct-Response Copywriter & Business Strategist.
-- **Context:** We are positioning [BUSINESS_NAME] to sell [PRIMARY_OFFER] to [TARGET_AUDIENCE].
-- **Objective:** Generate 5 unique mechanism angles to solve [CORE_PROBLEM].
-- **Inputs:** Target: [TARGET_AUDIENCE], Main Bottleneck: [CORE_PROBLEM], Desired Outcome: [DESIRED_OUTCOME].
-- **Output Format:** Markdown table with Angle, Unique Mechanism Name, One-Sentence Pitch, Key Psychological Trigger.
+Copy and paste this into ChatGPT or Claude:
+
+> "Act as a friendly marketing expert. I own [BUSINESS_NAME] and serve [TARGET_AUDIENCE]. Our clients struggle with [CORE_PROBLEM]. Write 3 simple, plain-English headlines explaining how [PRIMARY_OFFER] gives them [DESIRED_OUTCOME] without using any complicated jargon."
 
 ---
 
-## 2. MARKETING: HIGH-CONVERTING SOCIAL CONTENT PROMPT
+## 2. PROMPT FOR SOCIAL MEDIA POSTS
 
-- **Role:** Viral Direct-Response Content Marketer.
-- **Context:** Creating content for [CLIENT_NAME] targeting [TARGET_AUDIENCE].
-- **Objective:** Write 3 LinkedIn/X posts using the **Hook → Story → Insight → CTA** structure.
-- **CTA Link:** Directing readers to download lead magnet at `CC-LP-001` or book at [BOOKING_URL].
-- **Constraints:** No generic intro fluff, maximum retention hooks.
+Copy and paste this into ChatGPT or Claude:
+
+> "Write 3 short, friendly LinkedIn posts for [CLIENT_NAME]. The goal is to help [TARGET_AUDIENCE] understand why fixing [CORE_PROBLEM] is easy when they use [UNIQUE_MECHANISM]. End each post with a warm invitation to download our free checklist at `CC-LP-001` or book a chat at [BOOKING_URL]."

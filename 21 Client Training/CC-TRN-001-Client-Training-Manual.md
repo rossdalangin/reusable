@@ -1,4 +1,4 @@
-# CC-TRN-001: CLIENT SYSTEM HANDOFF & OPERATIONAL MANUAL
+# CC-TRN-001: YOUR EASY SYSTEM USER GUIDE
 
 **Asset ID:** CC-TRN-001
 **Category:** Client Training
@@ -6,15 +6,15 @@
 
 ---
 
-## 1. SYSTEM OVERVIEW FOR CLIENTS
+## WELCOME TO YOUR NEW GROWTH SYSTEM!
 
-Congratulations on launching your **Client Growth System**! This manual will guide you through managing your website, reviewing incoming leads, and accessing your analytics.
+Congratulations on launching your **Client Growth System**! This simple guide shows you how to check new leads and manage your calendar.
 
-## 2. HOW TO ACCESS & REVIEW INCOMING LEADS
-1. Log into your WordPress Dashboard at `[WEBSITE_URL]/wp-admin/`.
-2. Navigate to **Leads / Submissions** in the side navigation.
-3. Every lead automatically triggers an alert email and enters your CRM workflow (`CC-AUTO-001`).
+## 1. HOW TO VIEW YOUR NEW LEADS
+1. Log into your WordPress site at `[WEBSITE_URL]/wp-admin/`.
+2. Click on **Leads** in the left menu bar.
+3. Every time someone fills out a form, you will also get an instant email notification!
 
-## 3. SCHEDULE MANAGEMENT & BOOKINGS
-- All calendar strategy sessions map directly to your calendar via [BOOKING_URL].
-- Ensure your calendar availability is updated weekly.
+## 2. MANAGING YOUR APPOINTMENTS
+- All booked calls automatically appear on your calendar via [BOOKING_URL].
+- Simply check your calendar each morning to see your upcoming chats.

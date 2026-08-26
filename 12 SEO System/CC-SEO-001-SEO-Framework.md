@@ -1,4 +1,4 @@
-# CC-SEO-001: ON-PAGE & LOCAL SEO FRAMEWORK
+# CC-SEO-001: PLAIN-ENGLISH SEO GUIDE
 
 **Asset ID:** CC-SEO-001
 **Category:** SEO System
@@ -6,22 +6,20 @@
 
 ---
 
-## 1. ON-PAGE SEO SPECIFICATIONS
+## 1. EASY PAGE TITLE & DESCRIPTION GUIDE
 
 - **Page Title:** [PRIMARY_OFFER] for [TARGET_AUDIENCE] | [BUSINESS_NAME]
-- **Meta Description:** Struggling with [CORE_PROBLEM]? Discover how [BUSINESS_NAME] uses [UNIQUE_MECHANISM] to deliver [DESIRED_OUTCOME]. Book your strategy session today!
-- **URL Slug:** `/[PRIMARY_OFFER_SLUG]/`
-- **H1 Header:** How [TARGET_AUDIENCE] Achieves [DESIRED_OUTCOME]
-- **H2 Structure:**
-  - H2: The Core Challenge: Why [CORE_PROBLEM] Holds You Back
-  - H2: Our Proven Solution: Introducing [UNIQUE_MECHANISM]
-  - H2: Client Case Studies & Proof
-  - H2: Frequently Asked Questions
-- **Schema Recommendation:** `ProfessionalService` & `FAQPage` JSON-LD.
+- **Page Summary (Meta Description):** Struggling with [CORE_PROBLEM]? See how [BUSINESS_NAME] helps you get [DESIRED_OUTCOME] simply and predictably. Book a free strategy chat today!
+- **Main Page Title (H1):** How [TARGET_AUDIENCE] Can Get [DESIRED_OUTCOME]
+- **Sub-headings (H2):**
+  - Why [CORE_PROBLEM] Holds Business Owners Back
+  - Our Simple 3-Step Solution: [UNIQUE_MECHANISM]
+  - Real Success Stories & Reviews
+  - Frequently Asked Questions
 
 ---
 
-## 2. JSON-LD SCHEMA TEMPLATE
+## 2. GOOGLE BUSINESS LISTING SCHEMA (PLAIN STRUCTURE)
 
 ```json
 {
@@ -29,8 +27,7 @@
   "@type": "ProfessionalService",
   "name": "[BUSINESS_NAME]",
   "url": "[WEBSITE_URL]",
-  "description": "Provider of [PRIMARY_OFFER] for [TARGET_AUDIENCE].",
-  "areaServed": "Global / Local",
+  "description": "Helping [TARGET_AUDIENCE] solve [CORE_PROBLEM] with [PRIMARY_OFFER].",
   "provider": {
     "@type": "Person",
     "name": "[CLIENT_NAME]"

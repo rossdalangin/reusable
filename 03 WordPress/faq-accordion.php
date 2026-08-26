@@ -2,7 +2,7 @@
 /**
  * Component: FAQ Accordion (CC-WP-002)
  * Package: Client Growth System Generator
- * Description: Accessible FAQ section with Schema.org microdata support.
+ * Description: Easy-to-read FAQ section answering common questions in plain English.
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
@@ -11,19 +11,23 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 $cgs_faqs = get_query_var( 'cgs_faqs', array(
 	array(
-		'question' => 'How quickly can [BUSINESS_NAME] implement the Client Growth System?',
-		'answer'   => 'Most systems are fully deployed, tested, and live within 14 to 21 business days.'
+		'question' => 'How long does it take to get everything setup?',
+		'answer'   => 'Usually, everything is completely built, tested, and ready for launch within 2 to 3 weeks.'
 	),
 	array(
-		'question' => 'What is required from my team during onboarding?',
-		'answer'   => 'We require a 60-minute intake call and access to your domain/hosting. We handle all copy, setup, and automations.'
+		'question' => 'Do I need to be good with technology to use this?',
+		'answer'   => 'Not at all! We set up everything for you and give you simple, easy video guides so you can manage your site with confidence.'
+	),
+	array(
+		'question' => 'How do I receive new leads when people sign up?',
+		'answer'   => 'Leads automatically land in your email inbox and CRM so you can easily reply right away.'
 	)
 ) );
 ?>
 
 <section class="cgs-faq-section" itemscope itemtype="https://schema.org/FAQPage">
 	<div class="cgs-container">
-		<h2 class="cgs-section-title">Frequently Asked Questions</h2>
+		<h2 class="cgs-section-title">Common Questions Answered Simply</h2>
 		<div class="cgs-faq-grid">
 			<?php foreach ( $cgs_faqs as $index => $faq ) : ?>
 				<div class="cgs-faq-item" itemscope itemprop="mainEntity" itemtype="https://schema.org/Question">

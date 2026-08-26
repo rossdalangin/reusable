@@ -1,4 +1,4 @@
-# CC-VID-001: SHORT-FORM VIDEO SCRIPT & PRODUCTION FRAMEWORK
+# CC-VID-001: SHORT-FORM VIDEO SCRIPT & DIRECTIONS
 
 **Asset ID:** CC-VID-001
 **Category:** Short-Form Video System
@@ -6,25 +6,22 @@
 
 ---
 
-## SCRIPT SPECIFICATION: MYTH-BUSTING PROBLEM / SOLUTION
+## EASY 45-SECOND VIDEO SCRIPT
 
 - **Target Audience:** [TARGET_AUDIENCE]
-- **Duration:** 45 - 60 seconds
-- **Platform:** Instagram Reels / TikTok / YouTube Shorts / LinkedIn Video
+- **Duration:** 45 seconds
+- **Where to Post:** Instagram Reels, TikTok, YouTube Shorts, LinkedIn Video
 
 ```text
-[0:00 - 0:05] HOOK (Visual: Close-up text overlay, fast cut)
-Voiceover: "Here is the biggest lie [TARGET_AUDIENCE] are told about solving [CORE_PROBLEM]..."
+[0:00 - 0:05] THE HOOK (Look at camera, big text overlay)
+Voice: "Here is the biggest lie [TARGET_AUDIENCE] are told about fixing [CORE_PROBLEM]..."
 
-[0:05 - 0:15] PATTERN INTERRUPT & AGITATION
-Visual: Show split-screen or screen-recording of common ineffective methods.
-Voiceover: "Most gurus tell you to spend hours on manual outreach. But all it does is burn your time without getting [DESIRED_OUTCOME]."
+[0:05 - 0:15] THE REALITY
+Voice: "Most people say you need to spend 10 hours a day on cold calls. But that just leads to burnout without giving you [DESIRED_OUTCOME]."
 
-[0:15 - 0:35] CORE SOLUTION & PROOF
-Visual: Show diagram of [UNIQUE_MECHANISM] and Client Growth System dashboard.
-Voiceover: "Instead, [BUSINESS_NAME] builds an automated WordPress engine that captures and nurtures leads 24/7."
+[0:15 - 0:35] THE EASY SOLUTION
+Voice: "Instead, we build a simple, automated WordPress system that brings qualified leads to you 24/7."
 
-[0:35 - 0:45] CALL TO ACTION
-Visual: Animated arrow pointing to link in bio / [BOOKING_URL].
-Voiceover: "Comment 'GROWTH' below or tap the link in bio to download our free blueprint today!"
+[0:35 - 0:45] FRIENDLY CALL TO ACTION
+Voice: "Tap the link in bio or visit [BOOKING_URL] to grab our free checklist today!"
 ```

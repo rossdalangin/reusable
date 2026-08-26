@@ -1,4 +1,4 @@
-# CC-CRO-001: CONVERSION RATE OPTIMIZATION & FRICTION CHECKLIST
+# CC-CRO-001: EASY CONVERSION CHECKLIST
 
 **Asset ID:** CC-CRO-001
 **Category:** CRO System
@@ -6,10 +6,10 @@
 
 ---
 
-## CONVERSION AUDIT MATRIX
+## 5 SIMPLE CHECKS FOR MORE CLIENTS
 
-1. **Clarity (5-Second Test):** Can a visitor identify the core offer ([PRIMARY_OFFER]) within 5 seconds of landing?
-2. **Relevance:** Does the hero section directly reference [TARGET_AUDIENCE] and [CORE_PROBLEM]?
-3. **Trust & Proof:** Are case studies, testimonials, and client logos visible near the primary CTA?
-4. **Friction Reduction:** Are form fields minimized (maximum 3 to 4 inputs)?
-5. **Call to Action Obviousness:** Does the primary button stand out visually with high color contrast?
+1. **Clear Message (5-Second Rule):** Can a new visitor understand what you offer ([PRIMARY_OFFER]) within 5 seconds?
+2. **Relatable Problem:** Does your top headline mention the exact problem ([CORE_PROBLEM]) your clients want to solve?
+3. **Real Proof:** Are client reviews and photos easy to see near your contact buttons?
+4. **Short Forms:** Is your sign-up form short and easy (no more than 3 or 4 simple questions)?
+5. **Clear Buttons:** Does your main "Book a Free Chat" button stand out clearly on the page?

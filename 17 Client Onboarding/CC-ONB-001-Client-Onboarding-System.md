@@ -1,4 +1,4 @@
-# CC-ONB-001: CLIENT ONBOARDING INTAKE & SECURITY PROTOCOL
+# CC-ONB-001: FRIENDLY CLIENT ONBOARDING & PASSWORD SAFETY
 
 **Asset ID:** CC-ONB-001
 **Category:** Client Onboarding
@@ -6,19 +6,18 @@
 
 ---
 
-## 1. CLIENT INTAKE FORM FIELDS
+## 1. SIMPLE INTAKE QUESTIONS
 
-1. **Business Profile:** Business Name, Website URL, Owner Name, Contact Email.
-2. **Offer Details:** [PRIMARY_OFFER], Pricing, Deliverables, Primary Differentiators.
-3. **Target Audience Profile:** [TARGET_AUDIENCE], Key Demographics, Main Frustrations, [CORE_PROBLEM].
-4. **Current Marketing Assets:** CRM Platform, Email List Size, Active Ad Channels.
+1. **About Your Business:** Business Name, Website Link, Primary Contact Person.
+2. **About Your Offer:** What is [PRIMARY_OFFER]? How much does it cost, and what do clients get?
+3. **About Your Customers:** Who is your ideal [TARGET_AUDIENCE]? What is their biggest frustration ([CORE_PROBLEM])?
+4. **Current Tools:** What email tool or CRM are you currently using?
 
 ---
 
-## 2. SECURE CREDENTIAL SHARING PROTOCOL
+## 2. HOW TO SAFELY SHARE PASSWORDS
 
-> ⚠️ **SECURITY MANDATE:** Never send or request passwords via plain email, standard web forms, or chat apps.
+> 🔒 **IMPORTANT SAFETY NOTE:** Please never send passwords in normal emails or text messages.
 
-- **Recommended Tool:** 1Password / Bitwarden Shared Vault or encrypted 1-time links (e.g. PasswordPusher).
-- **WordPress Access:** Create a temporary administrator user using user email `@clientdomain.com` and grant temporary access delegation.
-- **DNS / Hosting Access:** Use delegated access features (e.g. GoDaddy Delegate Access, Cloudflare Member Access, Cloudways Team Access).
+- **Safe Method:** Use a free secure password tool like Bitwarden or 1Password.
+- **WordPress Admin Access:** We will send you an invite email so you can give us access with one simple click.

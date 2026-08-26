@@ -1,4 +1,4 @@
-# CC-AUTO-001: AUTOMATION WORKFLOW ARCHITECTURE
+# CC-AUTO-001: EASY AUTOMATION WORKFLOWS
 
 **Asset ID:** CC-AUTO-001
 **Category:** Automation System
@@ -6,51 +6,37 @@
 
 ---
 
-## WORKFLOW 1: NEW LEAD CAPTURE & CRM ROUTING
+## WORKFLOW 1: WHEN A NEW LEAD SIGNS UP
 
 ```text
-TRIGGER: Form Submission (CC-FORM-001 or CC-FORM-002)
+STEP 1: Visitor fills out form (CC-FORM-001 or CC-FORM-002).
    │
    ▼
-CONDITIONS: Check if contact exists in CRM
-   ├── YES → Update Contact Record + Tag: "Lead-Magnet-Downloaded"
-   └── NO  → Create New Contact Record + Tag: "New-Lead"
+STEP 2: Add person to contacts list and tag as "New Lead".
    │
    ▼
-ACTIONS:
-   1. Send Internal Slack/Email Notification to [CLIENT_NAME]
-   2. Trigger Email Sequence (CC-EMAIL-001)
-   3. Update Lead Score (+10 points)
+STEP 3: Send instant email notification to [CLIENT_NAME].
    │
    ▼
-DELAYS: Wait 24 Hours
+STEP 4: Send Email #1 with download link (CC-EMAIL-001).
    │
    ▼
-END STATE: Transition to Nurture Automation Sequence
+STEP 5: Wait 24 hours, then send helpful Email #2.
 ```
 
 ---
 
-## WORKFLOW 2: STRATEGY CALL BOOKING & REMINDER ENGINE
+## WORKFLOW 2: WHEN A CLIENT BOOKS A CALL
 
 ```text
-TRIGGER: Booking Event Created via [BOOKING_URL]
+STEP 1: Client picks a time at [BOOKING_URL].
    │
    ▼
-ACTIONS:
-   1. Remove Contact from Nurture Email Sequence
-   2. Add Tag: "Consultation-Scheduled"
-   3. Send Instant SMS & Email Confirmation with Zoom Link
+STEP 2: Automatically pause promotional marketing emails.
    │
    ▼
-DELAYS: Wait until 24 Hours before Meeting
+STEP 3: Send instant email confirmation with calendar link.
    │
    ▼
-ACTIONS: Send 24h Reminder Email + Pre-Call Audit Worksheet
-   │
-   ▼
-DELAYS: Wait until 1 Hour before Meeting
-   │
-   ▼
-ACTIONS: Send 1h SMS Reminder
+STEP 4: Send friendly reminder 24 hours before meeting.
 ```

@@ -1,4 +1,4 @@
-# CC-CTA-001: REUSABLE CTA LIBRARY
+# CC-CTA-001: EASY-TO-READ CALL TO ACTION (CTA) GUIDE
 
 **Asset ID:** CC-CTA-001
 **Category:** CTA System
@@ -6,28 +6,20 @@
 
 ---
 
-## 1. PRIMARY CTAs (BOFU - Bottom of Funnel)
+## 1. MAIN CALL TO ACTION (BOOKING A CHAT)
 
-### CTA-P1: Strategy Consultation Call
-- **Text:** "Book Your Free Strategy Call"
-- **Purpose:** Schedule a 30-minute discovery session with [CLIENT_NAME].
-- **Funnel Stage:** Conversion / Sales
-- **Recommended Placement:** Hero section, bottom of service pages, end of case studies.
-- **Supporting Copy:** "No sales pressure. 100% actionable business growth strategy."
-- **Psychological Trigger:** Specificity & Risk Reversal.
-- **Destination:** [BOOKING_URL]
-- **Button Style:** Primary Accent (#2563eb), Bold, Large padding.
+- **Button Text:** "Book Your Free Strategy Chat"
+- **What It Does:** Invites visitors to a friendly 30-minute chat with [CLIENT_NAME].
+- **Where to Put It:** Top hero area, bottom of main pages, after client reviews.
+- **Friendly Helper Text:** "Zero sales pressure. Just a friendly chat about your business goals."
+- **Link Target:** [BOOKING_URL]
 
 ---
 
-## 2. LEAD GENERATION CTAs (MOFU - Middle of Funnel)
+## 2. FREE GUIDE CALL TO ACTION (LEAD MAGNETS)
 
-### CTA-L1: Lead Magnet Download
-- **Text:** "Download The Free Blueprint"
-- **Purpose:** Capture contact information in exchange for valuable resource.
-- **Funnel Stage:** Lead Generation
-- **Recommended Placement:** Blog sidebars, exit-intent modals, landing pages.
-- **Supporting Copy:** "Join 1,000+ [TARGET_AUDIENCE] who have transformed their results."
-- **Psychological Trigger:** Social proof & immediate value.
-- **Destination:** Lead magnet opt-in form / thank-you page.
-- **Button Style:** Secondary Contrast Accent (#0f172a), Medium padding.
+- **Button Text:** "Send Me The Free Guide"
+- **What It Does:** Gives visitors a free checklist in exchange for their email.
+- **Where to Put It:** Sidebars, blog posts, popups.
+- **Friendly Helper Text:** "Join 1,000+ [TARGET_AUDIENCE] getting helpful weekly growth tips."
+- **Link Target:** Lead magnet download form.

@@ -1,4 +1,4 @@
-# CC-FUN-001: COMPLETE FUNNEL ARCHITECTURES
+# CC-FUN-001: SIMPLE & EFFECTIVE FUNNEL MAPS
 
 **Asset ID:** CC-FUN-001
 **Category:** Funnel System
@@ -6,50 +6,44 @@
 
 ---
 
-## 1. LEAD MAGNET FUNNEL ARCHITECTURE
+## 1. THE SIMPLE FREE GUIDE FUNNEL
 
 ```text
-[Traffic Sources: Organic / SEO / Social / Ads]
+[Traffic: Social Posts / Search / Recommendations]
          │
          ▼
-[Landing Page: CC-LP-001]
+[Landing Page: Friendly free guide invitation CC-LP-001]
          │
          ▼
-[Form Opt-In: CC-FORM-002]
+[Simple Form: Name and email input CC-FORM-002]
          │
          ▼
-[Thank You Page + Booking Offer]
+[Thank-You Page: Instant download link + option to book a chat]
          │
          ├──────────────────────────┐
          ▼                          ▼
-[Lead Magnet Delivery]   [5-Day Email Sequence: CC-EMAIL-001]
+[Instant Guide Email]     [Friendly Follow-Up Emails CC-EMAIL-001]
                                     │
                                     ▼
-                         [Consultation Call Booking]
-                                    │
-                                    ▼
-                         [Client Onboarding: CC-AUTO-002]
+                         [Book a Strategy Chat at BOOKING_URL]
 ```
 
 ---
 
-## 2. PRODUCTIZED SERVICE FUNNEL ARCHITECTURE
+## 2. THE SIMPLE SERVICE FUNNEL
 
 ```text
-[Problem-Aware Content / Blog Post]
+[Helpful Article / Website Page]
          │
          ▼
-[Service Sales Page: CC-LP-003]
+[Clear Service Overview CC-LP-003]
          │
          ▼
-[Discovery Form Submission: CC-FORM-001]
+[Simple Inquiry Form CC-FORM-001]
          │
          ▼
-[Qualification & Booking: BOOKING_URL]
+[Friendly Chat & Custom Plan]
          │
          ▼
-[Proposal / Deal Closure]
-         │
-         ▼
-[Automated Onboarding Sequence: CC-EMAIL-003]
+[Welcome Aboard & Easy Setup]
 ```

@@ -1,48 +1,33 @@
-# CLIENT GROWTH SYSTEM - PRODUCTIZED DELIVERABLE KITS
+# EASY PRODUCTIZED CLIENT KITS
 
 **Client:** [CLIENT_NAME] | **Business:** [BUSINESS_NAME]
 
 ---
 
 ## 1. WEBSITE GROWTH KIT
-- **Target Price:** $3,500 one-time
-- **Included Assets:**
-  - `03 WordPress/hero-section.php` (`CC-WP-001`)
-  - `03 WordPress/faq-accordion.php` (`CC-WP-002`)
-  - `03 WordPress/cgs-components.css` (`CC-WP-CSS-001`)
-  - `04 Website Templates/CC-WPT-001-Homepage-Template.md` (`CC-WPT-001`)
-  - `06 CTA System/CC-CTA-001-CTA-Library.md` (`CC-CTA-001`)
+- **Investment:** $3,500 one-time
+- **What You Get:** A fast, mobile-friendly WordPress site built to turn visitors into clients. Includes hero sections, clear headers, FAQ accordions, and custom styles.
 
 ---
 
 ## 2. LEAD GENERATION KIT
-- **Target Price:** $2,500 one-time
-- **Included Assets:**
-  - `05 Landing Pages/CC-LP-001-Lead-Magnet-Landing-Page.md` (`CC-LP-001`)
-  - `07 Lead Capture/cgs-form-handler.php` (`CC-FORM-001`)
-  - `08 Lead Magnets/CC-LM-001-Lead-Magnet-Blueprint.md` (`CC-LM-001`)
-  - `10 Email System/CC-EMAIL-001-Welcome-Sequence.md` (`CC-EMAIL-001`)
+- **Investment:** $2,500 one-time
+- **What You Get:** A custom free guide blueprint, a high-converting landing page, simple 2-step contact forms, and automated welcome emails.
 
 ---
 
 ## 3. SEO GROWTH KIT
-- **Target Price:** $1,500 / month retainer
-- **Included Assets:**
-  - `12 SEO System/CC-SEO-001-SEO-Framework.md` (`CC-SEO-001`)
-  - `13 SEO Audit System/CC-AUD-001-SEO-Audit-Checklist.md` (`CC-AUD-001`)
-  - `19 Reporting Dashboard/CC-REP-001-Reporting-Framework.md` (`CC-REP-001`)
+- **Investment:** $1,500 / month
+- **What You Get:** Easy page title optimization, Google Search indexing, monthly speed checkups, and clear performance reports.
 
 ---
 
-## 4. AI BUSINESS KIT
-- **Target Price:** $2,000 one-time
-- **Included Assets:**
-  - `14 AI Prompt Library/CC-AI-001-AI-Prompt-Library.md` (`CC-AI-001`)
-  - `15 Content System/CC-CNT-001-Content-Framework.md` (`CC-CNT-001`)
-  - `16 Short-Form Video System/CC-VID-001-Short-Form-Video-Scripts.md` (`CC-VID-001`)
+## 4. AI & CONTENT KIT
+- **Investment:** $2,000 one-time
+- **What You Get:** Easy-to-use ChatGPT prompts, content post ideas, and short 45-second video scripts to bring in new leads.
 
 ---
 
-## 5. CLIENT ACQUISITION KIT (FULL SYSTEM)
-- **Target Price:** $7,500 - $12,000 package + $2,000 / month retainer
-- **Included Assets:** Complete Modules 01 to 21 + SOPs & Custom Automations.
+## 5. FULL CLIENT ACQUISITION SYSTEM
+- **Investment:** $7,500 - $12,000 package + monthly growth support
+- **What You Get:** The complete end-to-end client engine combining all 21 system modules!

@@ -1,4 +1,4 @@
-# CC-CNT-001: REUSABLE CONTENT SYSTEM & HOOK LIBRARY
+# CC-CNT-001: EASY CONTENT CREATION GUIDE
 
 **Asset ID:** CC-CNT-001
 **Category:** Content System
@@ -6,15 +6,15 @@
 
 ---
 
-## 1. CONTENT PILLARS MATRIX
-1. **Education:** How [TARGET_AUDIENCE] can overcome [CORE_PROBLEM].
-2. **Authority & Proof:** Case studies showing [DESIRED_OUTCOME] using [UNIQUE_MECHANISM].
-3. **Contrarian Opinion:** Why traditional solutions for [CORE_PROBLEM] fail.
-4. **Offer Promotion:** Direct call to action to book at [BOOKING_URL] or grab `CC-LM-001`.
+## 1. WHAT TO POST ABOUT
+1. **Helpful Lessons:** Easy tips showing [TARGET_AUDIENCE] how to solve [CORE_PROBLEM].
+2. **Client Stories:** True stories of how clients achieved [DESIRED_OUTCOME] with [UNIQUE_MECHANISM].
+3. **Common Myths:** Clearing up confusion about traditional, hard ways of doing things.
+4. **Simple Invitations:** Inviting followers to grab `CC-LM-001` or book a call at [BOOKING_URL].
 
 ---
 
-## 2. HOOK LIBRARY (HIGH-RETENTION)
-- "If you are a [TARGET_AUDIENCE] still struggling with [CORE_PROBLEM], stop doing this immediately."
-- "The 3-step framework [BUSINESS_NAME] used to get [DESIRED_OUTCOME] without [PRIMARY_PAIN_POINT]."
-- "Why 90% of [TARGET_AUDIENCE] get stuck and how [UNIQUE_MECHANISM] fixes it."
+## 2. ATTENTION-GETTING OPENING LINES
+- "If you're a [TARGET_AUDIENCE] feeling stuck with [CORE_PROBLEM], try this simple trick..."
+- "Here is how [BUSINESS_NAME] helps clients get [DESIRED_OUTCOME] without working extra hours."
+- "The biggest myth about [CORE_PROBLEM] and what you should do instead."

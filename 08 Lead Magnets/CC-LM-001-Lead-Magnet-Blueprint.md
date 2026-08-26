@@ -1,4 +1,4 @@
-# CC-LM-001: ULTIMATE LEAD MAGNET BLUEPRINT
+# CC-LM-001: SIMPLE & ACTIONABLE LEAD MAGNET BLUEPRINT
 
 **Asset ID:** CC-LM-001
 **Category:** Lead Magnet System
@@ -6,21 +6,16 @@
 
 ---
 
-## 1. LEAD MAGNET SPECIFICATION
+## 1. WHAT THIS GUIDE DELIVERS
 
-- **Title:** The 5-Step Growth Engine Checklist for [TARGET_AUDIENCE]
-- **Subtitle:** How to Eliminate [CORE_PROBLEM] and Achieve [DESIRED_OUTCOME]
-- **Format:** Interactive PDF Checklist & Video Audit Framework
+- **Title:** The 5-Step Business Growth Checklist for [TARGET_AUDIENCE]
+- **Subtitle:** How to Fix [CORE_PROBLEM] and Enjoy [DESIRED_OUTCOME]
+- **Format:** Quick 3-page PDF Checklist + 5-Minute Video Walkthrough
 - **Target Audience:** [TARGET_AUDIENCE]
 
-## 2. CONTENT OUTLINE
-1. **Step 1 - Audit & Diagnosis:** Evaluating your current conversion leaks.
-2. **Step 2 - Value Proposition Crafting:** Defining your unique mechanism [UNIQUE_MECHANISM].
-3. **Step 3 - High-Converting WordPress Setup:** Technical speed, UX, and security baseline.
-4. **Step 4 - Lead Capture Engine:** Setting up 2-step opt-in forms (`CC-FORM-001`).
-5. **Step 5 - Automated Follow-Up:** 7-day high-converting welcome email sequence.
-
-## 3. PROMOTION & DELIVERY STRATEGY
-- **Opt-in Page:** `CC-LP-001`
-- **Thank-You Page:** Instant download link + invitation to schedule [CTA] at [BOOKING_URL].
-- **Follow-up Sequence:** `CC-EMAIL-001` Welcome & Lead Magnet Delivery.
+## 2. SIMPLE LESSON BREAKDOWN
+1. **Step 1 - Finding Where Leads Get Lost:** A simple 5-minute check of your current website.
+2. **Step 2 - Crafting Your Message:** How to explain what you do so clients instantly get it.
+3. **Step 3 - Building a Fast Website:** Making sure your site opens fast on mobile phones.
+4. **Step 4 - Making It Easy to Contact You:** Adding simple 2-step contact forms (`CC-FORM-001`).
+5. **Step 5 - Friendly Automatic Follow-Ups:** Sending warm, helpful emails automatically.

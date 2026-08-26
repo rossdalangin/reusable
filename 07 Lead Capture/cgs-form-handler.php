@@ -1,8 +1,8 @@
 <?php
 /**
- * Component: Discovery Lead Capture Form Handler (CC-FORM-001)
+ * Component: Friendly Discovery Form Handler (CC-FORM-001)
  * Package: Client Growth System Generator
- * Description: Secure shortcode form handler with nonce verification, sanitization, and CRM webhook trigger.
+ * Description: Simple, secure form with clear field labels and friendly validation.
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
@@ -17,31 +17,31 @@ function cgs_render_discovery_form() {
 		<?php wp_nonce_field( 'cgs_discovery_nonce_action', 'cgs_discovery_nonce' ); ?>
 
 		<div class="cgs-form-group">
-			<label for="cgs-full-name">Full Name *</label>
-			<input type="text" id="cgs-full-name" name="full_name" required placeholder="John Doe">
+			<label for="cgs-full-name">What is your name? *</label>
+			<input type="text" id="cgs-full-name" name="full_name" required placeholder="Jane Smith">
 		</div>
 
 		<div class="cgs-form-group">
-			<label for="cgs-work-email">Work Email *</label>
-			<input type="email" id="cgs-work-email" name="work_email" required placeholder="john@[BUSINESS_NAME].com">
+			<label for="cgs-work-email">What is your best email address? *</label>
+			<input type="email" id="cgs-work-email" name="work_email" required placeholder="jane@[BUSINESS_NAME].com">
 		</div>
 
 		<div class="cgs-form-group">
-			<label for="cgs-phone">Phone Number</label>
+			<label for="cgs-phone">Phone number (Optional)</label>
 			<input type="tel" id="cgs-phone" name="phone" placeholder="(555) 000-0000">
 		</div>
 
 		<div class="cgs-form-group">
-			<label for="cgs-challenge">What is your primary growth bottleneck? *</label>
+			<label for="cgs-challenge">What is your biggest business goal right now? *</label>
 			<select id="cgs-challenge" name="challenge" required>
-				<option value="">Select an option...</option>
-				<option value="Lead Generation">Not enough qualified leads</option>
-				<option value="Conversion Rate">Low conversion on website</option>
-				<option value="Automation">Manual client onboarding & processes</option>
+				<option value="">Choose an option...</option>
+				<option value="Lead Generation">I need more qualified leads</option>
+				<option value="Conversion Rate">I want my website to get more inquiries</option>
+				<option value="Automation">I want to save time on admin & follow-ups</option>
 			</select>
 		</div>
 
-		<button type="submit" class="cgs-btn cgs-btn-primary">Book Strategy Call →</button>
+		<button type="submit" class="cgs-btn cgs-btn-primary">Book My Free Strategy Chat →</button>
 	</form>
 	<?php
 	return ob_get_clean();
@@ -50,7 +50,7 @@ add_shortcode( 'cgs_discovery_form', 'cgs_render_discovery_form' );
 
 function cgs_handle_discovery_form() {
 	if ( ! isset( $_POST['cgs_discovery_nonce'] ) || ! wp_verify_nonce( $_POST['cgs_discovery_nonce'], 'cgs_discovery_nonce_action' ) ) {
-		wp_die( 'Security check failed.' );
+		wp_die( 'Security check failed. Please refresh the page and try again.' );
 	}
 
 	$full_name  = isset( $_POST['full_name'] ) ? sanitize_text_field( $_POST['full_name'] ) : '';
@@ -59,10 +59,9 @@ function cgs_handle_discovery_form() {
 	$challenge  = isset( $_POST['challenge'] ) ? sanitize_text_field( $_POST['challenge'] ) : '';
 
 	if ( empty( $full_name ) || empty( $work_email ) ) {
-		wp_die( 'Please complete all required fields.' );
+		wp_die( 'Please fill in your name and email address.' );
 	}
 
-	// Trigger webhook / CRM action for [BUSINESS_NAME] automation
 	do_action( 'cgs_lead_captured', array(
 		'name'      => $full_name,
 		'email'     => $work_email,
