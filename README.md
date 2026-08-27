@@ -1,162 +1,317 @@
 # CLIENT GROWTH SYSTEM GENERATOR
 
-Welcome to the **Client Growth System Generator**—a complete, multidisciplinary business growth engine built to turn WordPress websites into lead-generating assets for coaches, consultants, professional service providers, and agencies.
+Welcome to the **Client Growth System Generator**—an elite, multidisciplinary business growth engine designed to turn WordPress websites into lead-generating business assets for coaches, consultants, professional service providers, and agencies.
 
-This master framework organizes strategy, code, copywriting, SEO, automations, SOPs, and client deliverables into a clean, reusable system.
+This master documentation provides an in-depth breakdown of every folder and file in the system, explaining **what each file does**, **how to use it**, **who provides/prepares it**, **who consumes/uses it**, and **how it drives business growth**.
 
 ---
 
-## SYSTEM ARCHITECTURE & FILE DIRECTORY
-
-Below is a detailed breakdown of every directory and file included in the Client Growth System:
+## SYSTEM ARCHITECTURE OVERVIEW
 
 ```text
 CLIENT GROWTH SYSTEM
-├── 01 Brand/
-│   └── CC-BRD-001-Brand-Positioning.md
-├── 02 Strategy/
-│   └── CC-STR-001-Offer-Strategy.md
-├── 03 WordPress/
-│   ├── hero-section.php
-│   ├── faq-accordion.php
-│   └── cgs-components.css
-├── 04 Website Templates/
-│   └── CC-WPT-001-Homepage-Template.md
-├── 05 Landing Pages/
-│   └── CC-LP-001-Lead-Magnet-Landing-Page.md
-├── 06 CTA System/
-│   └── CC-CTA-001-CTA-Library.md
-├── 07 Lead Capture/
-│   └── cgs-form-handler.php
-├── 08 Lead Magnets/
-│   └── CC-LM-001-Lead-Magnet-Blueprint.md
-├── 09 Funnel System/
-│   └── CC-FUN-001-Funnel-Architectures.md
-├── 10 Email System/
-│   └── CC-EMAIL-001-Welcome-Sequence.md
-├── 11 Automation System/
-│   └── CC-AUTO-001-Automation-Workflows.md
-├── 12 SEO System/
-│   └── CC-SEO-001-SEO-Framework.md
-├── 13 SEO Audit System/
-│   └── CC-AUD-001-SEO-Audit-Checklist.md
-├── 14 AI Prompt Library/
-│   └── CC-AI-001-AI-Prompt-Library.md
-├── 15 Content System/
-│   └── CC-CNT-001-Content-Framework.md
-├── 16 Short-Form Video System/
-│   └── CC-VID-001-Short-Form-Video-Scripts.md
-├── 17 Client Onboarding/
-│   └── CC-ONB-001-Client-Onboarding-System.md
-├── 18 Client Delivery SOPs/
-│   └── CC-SOP-001-Client-Delivery-SOP.md
-├── 19 Reporting Dashboard/
-│   └── CC-REP-001-Reporting-Framework.md
-├── 20 CRO System/
-│   └── CC-CRO-001-CRO-Framework.md
-├── 21 Client Training/
-│   └── CC-TRN-001-Client-Training-Manual.md
-├── 22 Downloadable Client Resources/
-│   ├── CC-WKS-001-Content-Calendar-Worksheet.md
-│   ├── CC-WKS-002-Website-Planning-Workbook.md
-│   ├── CC-WKS-003-Sales-Call-Script-Worksheet.md
-│   ├── CC-WKS-004-Offer-Pricing-Calculator.md
-│   └── CC-WKS-005-Customer-Avatar-Worksheet.md
-└── productized-kits/
-    └── CC-KIT-Productized-Services.md
+├── 01 Brand/                            # Brand positioning & core messaging framework
+├── 02 Strategy/                         # Offer architecture & customer journey maps
+├── 03 WordPress/                        # High-performance PHP theme components & modular CSS
+├── 04 Website Templates/                # Strategic homepage & website page layouts
+├── 05 Landing Pages/                    # High-converting lead magnet landing pages
+├── 06 CTA System/                       # Reusable Call-to-Action (CTA) library
+├── 07 Lead Capture/                     # Secure WordPress form handlers & shortcodes
+├── 08 Lead Magnets/                     # Interactive lead magnet blueprints & guide frameworks
+├── 09 Funnel System/                    # Complete customer journey & funnel architecture maps
+├── 10 Email System/                     # Automated welcome & consultation email sequences
+├── 11 Automation System/                # Workflow automation logic & CRM routing rules
+├── 12 SEO System/                       # On-page SEO metadata & Schema JSON-LD markup
+├── 13 SEO Audit System/                 # Website health audit checklists & scoring frameworks
+├── 14 AI Prompt Library/                # Copy-paste AI prompts for strategy & content
+├── 15 Content System/                   # Content pillars & high-retention social hooks
+├── 16 Short-Form Video System/          # 45-second video scripts & visual directions
+├── 17 Client Onboarding/                # Intake forms & password safety protocols
+├── 18 Client Delivery SOPs/             # Step-by-step agency deployment procedures
+├── 19 Reporting Dashboard/              # Monthly performance KPI tracking reports
+├── 20 CRO System/                       # 5-point conversion rate optimization checklists
+├── 21 Client Training/                  # Client handoff manuals & user guides
+├── 22 Downloadable Client Resources/    # Worksheets, workbooks & sales call scripts
+└── productized-kits/                    # Productized client deliverable packages
 ```
 
 ---
 
-## DETAILED DIRECTORY & FILE EXPLANATIONS
+## ROLES & RESPONSIBILITIES MATRIX
 
-### 01 Brand /
-- **`CC-BRD-001-Brand-Positioning.md`**: Defines brand promise, elevator pitches, tone of voice, unique mechanism, and core values in simple, plain English.
+To ensure seamless implementation, the system clarifies roles across three primary groups:
 
-### 02 Strategy /
-- **`CC-STR-001-Offer-Strategy.md`**: Maps out the high-value core offer, deliverables, pricing logic, customer journey stages, and risk-reversal guarantees.
+1. **PROVIDER / CREATOR (Agency Team):**
+   - **Lead Strategist:** Defines brand positioning, customer journey, and offer pricing.
+   - **WordPress Developer:** Deploys PHP components, form handlers, CSS, and security nonces.
+   - **Direct-Response Copywriter:** Customizes email sequences, sales scripts, and landing pages.
+   - **Media & Automation Architect:** Configures CRM workflows, AI prompts, and video scripts.
 
-### 03 WordPress /
-- **`hero-section.php` (`CC-WP-001`)**: High-converting, accessible PHP hero template part with escaped variables (`esc_html`, `esc_url`) and mobile-friendly markup.
-- **`faq-accordion.php` (`CC-WP-002`)**: Schema.org microdata-enabled interactive FAQ section written in simple, layman's terms.
-- **`cgs-components.css` (`CC-WP-CSS-001`)**: Core modular stylesheet built with clean CSS custom properties (variables) for fast styling across clients.
+2. **RECIPIENT / USER (Client / Business Owner):**
+   - **Coach / Consultant / Service Provider:** Uses the worksheets, approves copy, conducts discovery sales calls, and reviews monthly KPI dashboards.
 
-### 04 Website Templates /
-- **`CC-WPT-001-Homepage-Template.md`**: Complete layout blueprint and copy framework for high-converting homepages.
-
-### 05 Landing Pages /
-- **`CC-LP-001-Lead-Magnet-Landing-Page.md`**: High-converting landing page structure designed to maximize opt-in conversion rates.
-
-### 06 CTA System /
-- **`CC-CTA-001-CTA-Library.md`**: Strategic call-to-action library categorizing primary conversion buttons and lead magnet opt-in links.
-
-### 07 Lead Capture /
-- **`cgs-form-handler.php` (`CC-FORM-001`)**: Secure WordPress form handler shortcode with nonces (`wp_verify_nonce`), sanitization, and CRM webhook triggers.
-
-### 08 Lead Magnets /
-- **`CC-LM-001-Lead-Magnet-Blueprint.md`**: Step-by-step framework for creating engaging PDF checklists and video audit resources.
-
-### 09 Funnel System /
-- **`CC-FUN-001-Funnel-Architectures.md`**: Visual funnel maps for Lead Magnet Funnels, Authority Funnels, and Productized Service Funnels.
-
-### 10 Email System /
-- **`CC-EMAIL-001-Welcome-Sequence.md`**: High-converting welcome email sequence templates designed to build authority and drive consultation bookings.
-
-### 11 Automation System /
-- **`CC-AUTO-001-Automation-Workflows.md`**: Step-by-step automation logic specifying triggers, actions, delays, and CRM pipeline movements.
-
-### 12 SEO System /
-- **`CC-SEO-001-SEO-Framework.md`**: On-page SEO metadata templates, H1/H2 header structures, and `ProfessionalService` JSON-LD schema.
-
-### 13 SEO Audit System /
-- **`CC-AUD-001-SEO-Audit-Checklist.md`**: Plain-English website health checklist for auditing technical SEO, mobile performance, and security.
-
-### 14 AI Prompt Library /
-- **`CC-AI-001-AI-Prompt-Library.md`**: Ready-to-use AI prompts for ChatGPT and Claude covering business strategy, social copy, and offer creation.
-
-### 15 Content System /
-- **`CC-CNT-001-Content-Framework.md`**: 4-pillar social media framework and high-retention hook library.
-
-### 16 Short-Form Video System /
-- **`CC-VID-001-Short-Form-Video-Scripts.md`**: 45-second video scripts complete with visual cues, voiceover copy, and retention hooks.
-
-### 17 Client Onboarding /
-- **`CC-ONB-001-Client-Onboarding-System.md`**: Friendly client intake forms and secure credential sharing protocols (Bitwarden/1Password).
-
-### 18 Client Delivery SOPs /
-- **`CC-SOP-001-Client-Delivery-SOP.md`**: Step-by-step procedures and definition-of-done checklists for building and launching client growth engines.
-
-### 19 Reporting Dashboard /
-- **`CC-REP-001-Reporting-Framework.md`**: Monthly KPI performance dashboard tracking traffic, leads, booked calls, and site speed.
-
-### 20 CRO System /
-- **`CC-CRO-001-CRO-Framework.md`**: 5-point conversion rate optimization checklist evaluating clarity, trust, friction, and visual hierarchy.
-
-### 21 Client Training /
-- **`CC-TRN-001-Client-Training-Manual.md`**: Simple handoff manual teaching non-technical clients how to view leads and manage calendar calls.
-
-### 22 Downloadable Client Resources /
-- **`CC-WKS-001-Content-Calendar-Worksheet.md`**: Downloadable 30-day social content planner and fill-in-the-blank grid.
-- **`CC-WKS-002-Website-Planning-Workbook.md`**: Downloadable copy collection and planning workbook for clients.
-- **`CC-WKS-003-Sales-Call-Script-Worksheet.md`**: Downloadable 30-minute discovery call script and question checklist.
-- **`CC-WKS-004-Offer-Pricing-Calculator.md`**: Downloadable offer packaging and profit margin worksheet.
-- **`CC-WKS-005-Customer-Avatar-Worksheet.md`**: Downloadable buyer research and target market profile sheet.
-
-### productized-kits /
-- **`CC-KIT-Productized-Services.md`**: Package guide bundling assets into 5 sellable kits (Website Growth Kit, Lead Generation Kit, SEO Growth Kit, AI Business Kit, Client Acquisition Kit).
+3. **END CONSUMER (Website Visitor / Prospect):**
+   - **Ideal Customer Avatar:** Interacts with landing pages, downloads lead magnets, receives welcome emails, and books consultation appointments.
 
 ---
 
-## REUSABLE PLACEHOLDERS
+## DETAILED FILE & FOLDER EXPLANATIONS
 
-Replace these standard variables when deploying the system for a new client:
+### MODULE 01 — BRAND FOUNDATION
+- **Folder Path:** `01 Brand/`
+- **File:** `CC-BRD-001-Brand-Positioning.md`
+- **Purpose & Usage:** Establishes the foundation of the client's business brand, including brand promise, elevator pitch, core values, and unique mechanism.
+- **Who Prepares It:** Lead Brand Strategist & Copywriter.
+- **Who Uses It:** Client (for consistent messaging) & Agency Team (as the source of truth for website copy).
+- **How It Fits:** Ensures every page, email, and social post speaks directly to the client's ideal customer avatar.
 
-- `[CLIENT_NAME]` - Client / founder name.
-- `[BUSINESS_NAME]` - Business name.
-- `[TARGET_AUDIENCE]` - Ideal customer niche.
-- `[PRIMARY_OFFER]` - Core package name.
-- `[CORE_PROBLEM]` - Main client frustration solved.
-- `[DESIRED_OUTCOME]` - Key result delivered.
-- `[UNIQUE_MECHANISM]` - Proprietary method name.
-- `[BOOKING_URL]` - Scheduling link.
-- `[WEBSITE_URL]` - Client website URL.
+---
+
+### MODULE 02 — BUSINESS & OFFER STRATEGY
+- **Folder Path:** `02 Strategy/`
+- **File:** `CC-STR-001-Offer-Strategy.md`
+- **Purpose & Usage:** Outlines the core offer deliverables, pricing tiers, customer journey stages, and risk-reversal guarantees.
+- **Who Prepares It:** Business Strategist & Pricing Specialist.
+- **Who Uses It:** Client (to package their service) & Agency Team (to structure landing pages).
+- **How It Fits:** Turns vague hourly services into premium, productized packages that command higher fees.
+
+---
+
+### MODULE 03 — WORDPRESS FOUNDATION
+- **Folder Path:** `03 WordPress/`
+- **Files:**
+  - `hero-section.php` (`CC-WP-001`): A modular PHP hero template part featuring escaped variables (`esc_html`, `esc_url`), badge callouts, accessible ARIA attributes, and primary CTA buttons.
+  - `faq-accordion.php` (`CC-WP-002`): An interactive PHP FAQ component built with Schema.org microdata for enhanced search engine visibility.
+  - `cgs-components.css` (`CC-WP-CSS-001`): A clean, lightweight CSS stylesheet utilizing CSS variables for consistent typography, colors, and responsive layouts.
+- **Purpose & Usage:** Provides fast, modular, mobile-ready code blocks to assemble WordPress websites quickly without visual page builder bloat.
+- **Who Prepares It:** Senior WordPress Developer.
+- **Who Uses It:** Agency Development Team.
+- **How It Fits:** Guarantees top Core Web Vitals performance (>90 score) and accessible user experience across all devices.
+
+---
+
+### MODULE 04 — WEBSITE TEMPLATES
+- **Folder Path:** `04 Website Templates/`
+- **File:** `CC-WPT-001-Homepage-Template.md`
+- **Purpose & Usage:** Provides a section-by-section strategic homepage layout specifying exact placements for hero sections, social proof, service cards, and CTAs.
+- **Who Prepares It:** UI/UX Designer & Information Architect.
+- **Who Uses It:** WordPress Developer (building the site layout).
+- **How It Fits:** Directs website visitors along a clear psychological path from initial interest to booking a call.
+
+---
+
+### MODULE 05 — LANDING PAGE SYSTEM
+- **Folder Path:** `05 Landing Pages/`
+- **File:** `CC-LP-001-Lead-Magnet-Landing-Page.md`
+- **Purpose & Usage:** Blueprint for high-converting lead magnet landing pages designed to turn cold visitors into email subscribers.
+- **Who Prepares It:** Direct-Response Copywriter & CRO Specialist.
+- **Who Uses It:** Agency Team (to deploy landing pages).
+- **How It Fits:** Captures prospect contact information at scale.
+
+---
+
+### MODULE 06 — CTA SYSTEM
+- **Folder Path:** `06 CTA System/`
+- **File:** `CC-CTA-001-CTA-Library.md`
+- **Purpose & Usage:** A centralized library of primary (Bottom-of-Funnel) and lead gen (Middle-of-Funnel) Call-To-Action buttons, placement rules, and supporting copy.
+- **Who Prepares It:** Conversion Copywriter.
+- **Who Uses It:** Copywriters & Web Developers.
+- **How It Fits:** Eliminates weak "Submit" buttons by using clear, action-oriented prompts.
+
+---
+
+### MODULE 07 — LEAD CAPTURE SYSTEM
+- **Folder Path:** `07 Lead Capture/`
+- **File:** `cgs-form-handler.php` (`CC-FORM-001`)
+- **Purpose & Usage:** Production-ready PHP form handler shortcodes (`[cgs_discovery_form]`) complete with WordPress Nonce security validation (`wp_verify_nonce`), field sanitization (`sanitize_text_field`), and action hooks for CRM integration.
+- **Who Prepares It:** WordPress Backend Specialist.
+- **Who Uses It:** End-User / Prospect (filling out forms) & Agency Developer (embedding forms via shortcodes).
+- **How It Fits:** Securely collects lead information and instantly triggers automated follow-up sequences.
+
+---
+
+### MODULE 08 — LEAD MAGNET SYSTEM
+- **Folder Path:** `08 Lead Magnets/`
+- **File:** `CC-LM-001-Lead-Magnet-Blueprint.md`
+- **Purpose & Usage:** Detailed guide for creating valuable PDF checklists and video audit frameworks that solve an immediate problem for prospects.
+- **Who Prepares It:** Content Strategist.
+- **Who Uses It:** Client (to create or record the lead magnet content).
+- **How It Fits:** Positions the client as an authority while providing genuine upfront value.
+
+---
+
+### MODULE 09 — FUNNEL SYSTEM
+- **Folder Path:** `09 Funnel System/`
+- **File:** `CC-FUN-001-Funnel-Architectures.md`
+- **Purpose & Usage:** Visual flowcharts mapping the exact steps from initial traffic awareness to landing pages, opt-ins, email nurture, booking calls, and client onboarding.
+- **Who Prepares It:** Funnel Architect.
+- **Who Uses It:** Entire Agency Team & Client (to understand the customer journey).
+- **How It Fits:** Connects separate assets into one unified client acquisition system.
+
+---
+
+### MODULE 10 — EMAIL SYSTEM
+- **Folder Path:** `10 Email System/`
+- **File:** `CC-EMAIL-001-Welcome-Sequence.md`
+- **Purpose & Usage:** Pre-written, humanized welcome email templates that automatically deliver lead magnets, bust common myths, and invite prospects to schedule a consultation.
+- **Who Prepares It:** Direct-Response Copywriter.
+- **Who Uses It:** Email Marketing Tool / CRM (e.g. ActiveCampaign, ConvertKit, Mailchimp).
+- **How It Fits:** Nurtures leads automatically in the background 24/7.
+
+---
+
+### MODULE 11 — AUTOMATION SYSTEM
+- **Folder Path:** `11 Automation System/`
+- **File:** `CC-AUTO-001-Automation-Workflows.md`
+- **Purpose & Usage:** Platform-agnostic workflow maps defining exact triggers, conditions, delays, and actions for lead routing and appointment reminders.
+- **Who Prepares It:** AI & Automation Architect.
+- **Who Uses It:** Automation Specialist (setting up Zapier/Make/ActiveCampaign).
+- **How It Fits:** Saves hours of admin work and prevents no-shows with automated reminders.
+
+---
+
+### MODULE 12 — SEO SYSTEM
+- **Folder Path:** `12 SEO System/`
+- **File:** `CC-SEO-001-SEO-Framework.md`
+- **Purpose & Usage:** On-page SEO templates, meta description guidelines, header hierarchies, and copy-paste `ProfessionalService` JSON-LD schema markup.
+- **Who Prepares It:** Technical SEO Specialist.
+- **Who Uses It:** Web Developer & Content Creator.
+- **How It Fits:** Helps the client's website rank higher on Google search results for valuable local and niche keywords.
+
+---
+
+### MODULE 13 — SEO AUDIT SYSTEM
+- **Folder Path:** `13 SEO Audit System/`
+- **File:** `CC-AUD-001-SEO-Audit-Checklist.md`
+- **Purpose & Usage:** Plain-English health check audit table evaluating site speed, SSL security, meta tags, accessibility, and form validation.
+- **Who Prepares It:** Technical SEO & Performance Specialist.
+- **Who Uses It:** Agency Team (to audit prospective client websites) & Client (to see site health).
+- **How It Fits:** Identifies conversion leaks and technical flaws before launching new marketing campaigns.
+
+---
+
+### MODULE 14 — AI PROMPT LIBRARY
+- **Folder Path:** `14 AI Prompt Library/`
+- **File:** `CC-AI-001-AI-Prompt-Library.md`
+- **Purpose & Usage:** Ready-to-use AI prompts for ChatGPT, Claude, or Gemini covering strategy, offer positioning, and social media copywriting.
+- **Who Prepares It:** AI Prompt Engineer.
+- **Who Uses It:** Client & Agency Content Team.
+- **How It Fits:** Accelerates content generation and strategy creation tenfold using artificial intelligence.
+
+---
+
+### MODULE 15 — CONTENT SYSTEM
+- **Folder Path:** `15 Content System/`
+- **File:** `CC-CNT-001-Content-Framework.md`
+- **Purpose & Usage:** 4-pillar content grid and attention-grabbing hook library for social media posts (LinkedIn, X, Facebook, Instagram).
+- **Who Prepares It:** Social Media Strategist.
+- **Who Uses It:** Client or Social Media Manager.
+- **How It Fits:** Drives consistent organic traffic to the website and landing pages.
+
+---
+
+### MODULE 16 — SHORT-FORM VIDEO SYSTEM
+- **Folder Path:** `16 Short-Form Video System/`
+- **File:** `CC-VID-001-Short-Form-Video-Scripts.md`
+- **Purpose & Usage:** 45-second short-form video scripts (Reels/TikTok/Shorts) complete with visual directions, voiceover text, and retention hooks.
+- **Who Prepares It:** Short-Form Video Strategist.
+- **Who Uses It:** Client (filming videos on smartphone).
+- **How It Fits:** Builds personal brand authority and engages audiences through mobile video.
+
+---
+
+### MODULE 17 — CLIENT ONBOARDING SYSTEM
+- **Folder Path:** `17 Client Onboarding/`
+- **File:** `CC-ONB-001-Client-Onboarding-System.md`
+- **Purpose & Usage:** Intake questionnaire fields and secure credential delegation rules (avoiding plain-text password sharing).
+- **Who Prepares It:** Operations Manager.
+- **Who Uses It:** New Client (filling out details during kickoff).
+- **How It Fits:** Ensures smooth, professional client kickoff without security risks.
+
+---
+
+### MODULE 18 — CLIENT DELIVERY SOPs
+- **Folder Path:** `18 Client Delivery SOPs/`
+- **File:** `CC-SOP-001-Client-Delivery-SOP.md`
+- **Purpose & Usage:** Internal Standard Operating Procedure detailing the step-by-step implementation process, deliverables, quality control, and definition of done.
+- **Who Prepares It:** Operations Manager & Technical Lead.
+- **Who Uses It:** Agency Team Members & Project Managers.
+- **How It Fits:** Standardizes agency delivery so every client receives top quality every time.
+
+---
+
+### MODULE 19 — REPORTING DASHBOARD
+- **Folder Path:** `19 Reporting Dashboard/`
+- **File:** `CC-REP-001-Reporting-Framework.md`
+- **Purpose & Usage:** Monthly KPI performance report template tracking traffic, leads, booked strategy calls, conversion rates, and page speed scores.
+- **Who Prepares It:** Analytics Specialist / Account Manager.
+- **Who Uses It:** Client & Agency Leadership.
+- **How It Fits:** Proves return on investment (ROI) and keeps client retainers active long-term.
+
+---
+
+### MODULE 20 — CRO SYSTEM
+- **Folder Path:** `20 CRO System/`
+- **File:** `CC-CRO-001-CRO-Framework.md`
+- **Purpose & Usage:** 5-point conversion rate optimization checklist evaluating clarity (5-second rule), relevance, social proof, friction reduction, and button contrast.
+- **Who Prepares It:** CRO Specialist.
+- **Who Uses It:** Designer & Developer.
+- **How It Fits:** Increases website conversion rates so the client gets more leads from existing traffic.
+
+---
+
+### MODULE 21 — CLIENT TRAINING
+- **Folder Path:** `21 Client Training/`
+- **File:** `CC-TRN-001-Client-Training-Manual.md`
+- **Purpose & Usage:** Friendly user manual explaining how non-technical business owners can log into WordPress, view incoming leads, and manage appointment bookings.
+- **Who Prepares It:** Client Success Manager.
+- **Who Uses It:** Client & Client Support Staff.
+- **How It Fits:** Empowers the client to feel confident using their new growth system.
+
+---
+
+### MODULE 22 — DOWNLOADABLE CLIENT RESOURCES
+- **Folder Path:** `22 Downloadable Client Resources/`
+- **Files:**
+  - `CC-WKS-001-Content-Calendar-Worksheet.md`: 30-day downloadable social content planning grid.
+  - `CC-WKS-002-Website-Planning-Workbook.md`: Fill-in-the-blank website text and asset workbook.
+  - `CC-WKS-003-Sales-Call-Script-Worksheet.md`: 30-minute discovery call script and question checklist.
+  - `CC-WKS-004-Offer-Pricing-Calculator.md`: Service packaging and profit margin calculator.
+  - `CC-WKS-005-Customer-Avatar-Worksheet.md`: Ideal customer buyer research worksheet.
+- **Purpose & Usage:** Printable / fillable PDFs and workbooks handed directly to clients as high-value bonuses or kickoff materials.
+- **Who Prepares It:** Agency Team (brands files for client).
+- **Who Uses It:** Client / Business Owner.
+- **How It Fits:** Delivers massive tangible value and guides the client through crucial business decisions.
+
+---
+
+### PRODUCTIZED KITS
+- **Folder Path:** `productized-kits/`
+- **File:** `CC-KIT-Productized-Services.md`
+- **Purpose & Usage:** Package guide bundling system assets into 5 distinct, sellable client products:
+  1. **Website Growth Kit ($3,500)**
+  2. **Lead Generation Kit ($2,500)**
+  3. **SEO Growth Kit ($1,500/mo)**
+  4. **AI & Content Kit ($2,000)**
+  5. **Full Client Acquisition System ($7,500 - $12,000 + Retainer)**
+- **Who Prepares It:** Agency Founder & Sales Lead.
+- **Who Uses It:** Agency Sales Team (to pitch and close clients).
+- **How It Fits:** Turns custom service work into repeatable, scalable productized service packages.
+
+---
+
+## REUSABLE PLACEHOLDERS GLOSSARY
+
+When building a system for a specific client, replace these placeholders across all files:
+
+| Placeholder | Meaning | Example |
+| :--- | :--- | :--- |
+| `[CLIENT_NAME]` | Name of the business owner/founder | Jane Doe |
+| `[BUSINESS_NAME]` | Name of the client's business | Apex Leadership Consulting |
+| `[TARGET_AUDIENCE]` | Niche target market served | Corporate Executive Women |
+| `[PRIMARY_OFFER]` | Name of core high-value service | Executive Growth Catalyst |
+| `[CORE_PROBLEM]` | Primary pain point solved | Executive Burnout & Career Stagnation |
+| `[DESIRED_OUTCOME]` | Key result delivered to clients | Rapid Promotion & Work-Life Balance |
+| `[UNIQUE_MECHANISM]` | Proprietary 3-step method | The 3-Pillar Leadership Framework |
+| `[BOOKING_URL]` | Calendar scheduling link | `https://calendly.com/apex/strategy` |
+| `[WEBSITE_URL]` | Target website domain | `https://apexleadership.com` |
