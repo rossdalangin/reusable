@@ -31,7 +31,7 @@ CLIENT GROWTH SYSTEM
 ├── 19 Reporting Dashboard/              # Monthly performance KPI tracking reports
 ├── 20 CRO System/                       # 5-point conversion rate optimization checklists
 ├── 21 Client Training/                  # Client handoff manuals & user guides
-├── 22 Downloadable Client Resources/    # Worksheets, workbooks & sales call scripts
+├── 22 Downloadable Client Resources/    # Markdown & CSV Worksheets, workbooks & sales call scripts
 └── productized-kits/                    # Productized client deliverable packages
 ```
 
@@ -270,18 +270,18 @@ To ensure seamless implementation, the system clarifies roles across three prima
 
 ---
 
-### MODULE 22 — DOWNLOADABLE CLIENT RESOURCES
+### MODULE 22 — DOWNLOADABLE CLIENT RESOURCES (MARKDOWN & CSV)
 - **Folder Path:** `22 Downloadable Client Resources/`
-- **Files:**
-  - `CC-WKS-001-Content-Calendar-Worksheet.md`: 30-day downloadable social content planning grid.
-  - `CC-WKS-002-Website-Planning-Workbook.md`: Fill-in-the-blank website text and asset workbook.
-  - `CC-WKS-003-Sales-Call-Script-Worksheet.md`: 30-minute discovery call script and question checklist.
-  - `CC-WKS-004-Offer-Pricing-Calculator.md`: Service packaging and profit margin calculator.
-  - `CC-WKS-005-Customer-Avatar-Worksheet.md`: Ideal customer buyer research worksheet.
-- **Purpose & Usage:** Printable / fillable PDFs and workbooks handed directly to clients as high-value bonuses or kickoff materials.
-- **Who Prepares It:** Agency Team (brands files for client).
+- **Markdown & CSV Files:**
+  - `CC-WKS-001-Content-Calendar-Worksheet.md` / `.csv`: Downloadable 30-day social content planner.
+  - `CC-WKS-002-Website-Planning-Workbook.md` / `.csv`: Downloadable website copy & asset workbook.
+  - `CC-WKS-003-Sales-Call-Script-Worksheet.md` / `.csv`: Downloadable 30-minute discovery call script.
+  - `CC-WKS-004-Offer-Pricing-Calculator.md` / `.csv`: Downloadable offer pricing & margin calculator.
+  - `CC-WKS-005-Customer-Avatar-Worksheet.md` / `.csv`: Downloadable buyer research worksheet.
+- **Purpose & Usage:** Printable Markdown guides and Excel/CSV spreadsheet workbooks handed directly to clients for instant execution.
+- **Who Prepares It:** Agency Team.
 - **Who Uses It:** Client / Business Owner.
-- **How It Fits:** Delivers massive tangible value and guides the client through crucial business decisions.
+- **How It Fits:** Delivers tangible spreadsheet tools to help clients plan content, conduct sales calls, and calculate offer margins.
 
 ---
 

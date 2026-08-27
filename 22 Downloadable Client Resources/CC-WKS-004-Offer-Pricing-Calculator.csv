@@ -1,0 +1,7 @@
+Asset ID,Category,Client Name,Business Name
+CC-WKS-004,Downloadable Client Resources,[CLIENT_NAME],[BUSINESS_NAME]
+
+Package Tier,Features Included,Target Client,Price (USD),Estimated Margin
+Basic Starter,Core Setup + Basic Website Components,New [TARGET_AUDIENCE] starting out,$1500,70%
+Growth Engine,Full CC-KIT System + Automated Emails,Established [TARGET_AUDIENCE],$3500,75%
+VIP Premium,Complete Growth System + Monthly Retainer,High-growth business owners,$7500 + $1500/mo,80%

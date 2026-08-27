@@ -1,0 +1,11 @@
+Asset ID,Category,Client Name,Business Name
+CC-WKS-005,Downloadable Client Resources,[CLIENT_NAME],[BUSINESS_NAME]
+
+Profile Section,Field Name,Client Response / Profile Notes
+Basic Details,Target Niche / Profession,[TARGET_AUDIENCE]
+Basic Details,Typical Business Size / Revenue,$250k - $1M Annual Revenue
+Basic Details,Main Decision Maker Title,Founder / CEO / Managing Director
+Frustrations & Desires,What keeps them awake at night?,[CORE_PROBLEM]
+Frustrations & Desires,What is their dream business outcome?,[DESIRED_OUTCOME]
+Frustrations & Desires,What have they tried before that failed?,Generic hourly agencies and manual cold outreach
+Key Messaging,Primary Hook Statement,"We help [TARGET_AUDIENCE] solve [CORE_PROBLEM] and get [DESIRED_OUTCOME] simply."

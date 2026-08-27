@@ -1,0 +1,10 @@
+Asset ID,Category,Client Name,Business Name
+CC-WKS-003,Downloadable Client Resources,[CLIENT_NAME],[BUSINESS_NAME]
+
+Call Phase,Duration,Script / Question Prompt,Objective
+Warm Welcome,2 Minutes,"Hi [PROSPECT_NAME], great to connect with you today! The goal of our call is simply to learn a bit about your business, see what challenges you are facing with [CORE_PROBLEM], and see if our [PRIMARY_OFFER] is a good fit. How does that sound?",Establish rapport and set call expectations
+Asking Questions,10 Minutes,"What is your biggest business goal over the next 90 days?",Uncover goals
+Asking Questions,10 Minutes,"What is currently making it hard to get [DESIRED_OUTCOME]?",Uncover bottlenecks and pain points
+Asking Questions,10 Minutes,"Have you tried solving [CORE_PROBLEM] before?",Identify past failed alternatives
+Presenting Solution,10 Minutes,"Based on what you shared, our [PRIMARY_OFFER] is designed specifically for [TARGET_AUDIENCE]. We use our simple [UNIQUE_MECHANISM] to handle the heavy lifting for you so you can get [DESIRED_OUTCOME] without stress.",Present core offer and mechanism
+Easy Closing,8 Minutes,"Would you like our team to help you set this up starting next week?",Close sale or schedule next steps

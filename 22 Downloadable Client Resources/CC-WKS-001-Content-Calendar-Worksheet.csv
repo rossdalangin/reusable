@@ -1,0 +1,9 @@
+Asset ID,Category,Client Name,Business Name
+CC-WKS-001,Downloadable Client Resources,[CLIENT_NAME],[BUSINESS_NAME]
+
+Day,Content Focus,Hook Template,Call to Action,Status
+Monday,Helpful Tip,"If you are a [TARGET_AUDIENCE] struggling with [CORE_PROBLEM]...",Download Free Guide (CC-LP-001),Planned
+Tuesday,Client Success Story,"How one client achieved [DESIRED_OUTCOME] in just 30 days...",Book Strategy Chat ([BOOKING_URL]),Planned
+Wednesday,Common Myth,"The biggest lie about [CORE_PROBLEM]...",Read Blog Article,Planned
+Thursday,Behind the Scenes,"Inside our simple 3-step process using [UNIQUE_MECHANISM]...",Join Email List,Planned
+Friday,Direct Invitation,"Ready to finally solve [CORE_PROBLEM]? Let's chat...",Book Strategy Chat ([BOOKING_URL]),Planned
