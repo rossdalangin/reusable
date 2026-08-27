@@ -1,5 +1,13 @@
 # CC-CNT-001: EASY CONTENT CREATION GUIDE
 
+> **DOCUMENT SUMMARY & PURPOSE:**
+> - **File Purpose:** Establishes the 4 core content pillars and provides high-retention hooks for social media marketing.
+> - **Who Prepares It:** Social Media Strategist & Content Marketer.
+> - **Who Consumes It:** Client / Business Owner or Agency Content Creator.
+> - **How to Use It:** Reference these 4 content pillars and hook formulas when writing weekly social media posts to drive traffic to `CC-LP-001`.
+
+---
+
 **Asset ID:** CC-CNT-001
 **Category:** Content System
 **Client:** [CLIENT_NAME] | **Business:** [BUSINESS_NAME]

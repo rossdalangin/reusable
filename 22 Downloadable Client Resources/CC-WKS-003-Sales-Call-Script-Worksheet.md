@@ -1,5 +1,13 @@
 # CC-WKS-003: FRIENDLY SALES CALL SCRIPT & CHEAT SHEET
 
+> **DOCUMENT SUMMARY & PURPOSE:**
+> - **File Purpose:** Provides a downloadable 30-minute discovery call script, question guide, and closing prompts for sales calls.
+> - **Who Prepares It:** Sales Strategist.
+> - **Who Consumes It:** Client / Business Owner conducting sales discovery calls.
+> - **How to Use It:** Print or keep this cheat sheet open during strategy calls to guide prospective clients smoothly toward enrollment.
+
+---
+
 **Asset ID:** CC-WKS-003
 **Category:** Downloadable Client Resources
 **Client:** [CLIENT_NAME] | **Business:** [BUSINESS_NAME]

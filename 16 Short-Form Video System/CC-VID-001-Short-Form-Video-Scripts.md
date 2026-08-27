@@ -1,5 +1,13 @@
 # CC-VID-001: SHORT-FORM VIDEO SCRIPT & DIRECTIONS
 
+> **DOCUMENT SUMMARY & PURPOSE:**
+> - **File Purpose:** Provides 45-second short-form video scripts complete with visual direction, voiceover text, and CTA links.
+> - **Who Prepares It:** Short-Form Video Producer & Scriptwriter.
+> - **Who Consumes It:** Client / Founder (filming short videos on smartphone) or Video Editor.
+> - **How to Use It:** Record a 45-second video following the time-stamped visual cues and voiceover prompts for Reels/TikTok/Shorts.
+
+---
+
 **Asset ID:** CC-VID-001
 **Category:** Short-Form Video System
 **Client:** [CLIENT_NAME] | **Business:** [BUSINESS_NAME]

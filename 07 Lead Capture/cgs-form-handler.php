@@ -2,7 +2,12 @@
 /**
  * Component: Friendly Discovery Form Handler (CC-FORM-001)
  * Package: Client Growth System Generator
- * Description: Simple, secure form with clear field labels and friendly validation.
+ *
+ * DOCUMENT SUMMARY & PURPOSE:
+ * - Component Purpose: Handles lead capture form rendering and submission securely using WordPress nonces, input sanitization, and action hooks.
+ * - Who Prepares It: Senior WordPress Backend Developer.
+ * - Who Consumes It: Website Prospects (filling out forms) & Agency Developers (embedding [cgs_discovery_form] shortcode).
+ * - How to Use It: Include in theme functions.php or load as a plugin file. Place shortcode [cgs_discovery_form] on discovery/contact pages.
  */
 
 if ( ! defined( 'ABSPATH' ) ) {

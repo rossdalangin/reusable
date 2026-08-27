@@ -1,5 +1,13 @@
 # CC-SEO-001: PLAIN-ENGLISH SEO GUIDE
 
+> **DOCUMENT SUMMARY & PURPOSE:**
+> - **File Purpose:** Outlines on-page SEO meta tags, title formulas, header structures, and `ProfessionalService` JSON-LD schema.
+> - **Who Prepares It:** Technical SEO Specialist.
+> - **Who Consumes It:** Web Developer & Content Creator.
+> - **How to Use It:** Embed the JSON-LD schema block into the website `<head>` and format page headers according to the H1/H2 guidelines.
+
+---
+
 **Asset ID:** CC-SEO-001
 **Category:** SEO System
 **Client:** [CLIENT_NAME] | **Business:** [BUSINESS_NAME]

@@ -1,5 +1,13 @@
 # CC-WKS-002: WEBSITE PLANNING & COPY WORKBOOK
 
+> **DOCUMENT SUMMARY & PURPOSE:**
+> - **File Purpose:** Provides a downloadable fill-in-the-blank workbook to collect client brand info, copy, reviews, and links prior to site build.
+> - **Who Prepares It:** Agency Project Manager.
+> - **Who Consumes It:** Client / Business Owner.
+> - **How to Use It:** Hand this workbook to clients during onboarding so they can easily fill in their text, logo links, and FAQs.
+
+---
+
 **Asset ID:** CC-WKS-002
 **Category:** Downloadable Client Resources
 **Client:** [CLIENT_NAME] | **Business:** [BUSINESS_NAME]

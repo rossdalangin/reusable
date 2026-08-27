@@ -1,5 +1,13 @@
 # CC-SOP-001: STEP-BY-STEP IMPLEMENTATION GUIDE
 
+> **DOCUMENT SUMMARY & PURPOSE:**
+> - **File Purpose:** Standardizes the internal step-by-step procedures, team owners, quality control checklists, and definition of done for agency delivery.
+> - **Who Prepares It:** Operations Manager & Technical Lead.
+> - **Who Consumes It:** Agency Project Managers, WordPress Developers, and Copywriters.
+> - **How to Use It:** Execute this SOP sequentially during every client build to guarantee flawless, on-time project delivery.
+
+---
+
 **Asset ID:** CC-SOP-001
 **Category:** Client Delivery SOPs
 **Client:** [CLIENT_NAME] | **Business:** [BUSINESS_NAME]

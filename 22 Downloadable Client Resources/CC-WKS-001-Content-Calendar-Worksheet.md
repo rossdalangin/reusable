@@ -1,5 +1,13 @@
 # CC-WKS-001: 30-DAY SOCIAL CONTENT PLANNING WORKSHEET
 
+> **DOCUMENT SUMMARY & PURPOSE:**
+> - **File Purpose:** Provides a downloadable 30-day social content grid and hook template for clients to plan posts in under 60 minutes.
+> - **Who Prepares It:** Agency Content Strategist.
+> - **Who Consumes It:** Client / Business Owner or Social Media Manager.
+> - **How to Use It:** Download or print this worksheet to fill in weekly social post topics, hooks, and CTA links.
+
+---
+
 **Asset ID:** CC-WKS-001
 **Category:** Downloadable Client Resources
 **Client:** [CLIENT_NAME] | **Business:** [BUSINESS_NAME]

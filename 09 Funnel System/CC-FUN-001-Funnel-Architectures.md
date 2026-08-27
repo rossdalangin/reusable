@@ -1,5 +1,13 @@
 # CC-FUN-001: SIMPLE & EFFECTIVE FUNNEL MAPS
 
+> **DOCUMENT SUMMARY & PURPOSE:**
+> - **File Purpose:** Provides visual flowchart architectures connecting traffic sources, landing pages, forms, emails, calls, and onboarding.
+> - **Who Prepares It:** Funnel Architect & System Strategist.
+> - **Who Consumes It:** Agency Implementation Team (setting up tools) & Client (understanding the big picture).
+> - **How to Use It:** Reference these visual maps when connecting forms to CRM software and email sequences.
+
+---
+
 **Asset ID:** CC-FUN-001
 **Category:** Funnel System
 **Client:** [CLIENT_NAME] | **Business:** [BUSINESS_NAME]

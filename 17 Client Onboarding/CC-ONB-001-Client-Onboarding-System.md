@@ -1,5 +1,13 @@
 # CC-ONB-001: FRIENDLY CLIENT ONBOARDING & PASSWORD SAFETY
 
+> **DOCUMENT SUMMARY & PURPOSE:**
+> - **File Purpose:** Outlines the intake questionnaire and secure credential sharing rules for onboarding new clients.
+> - **Who Prepares It:** Operations Manager & Client Success Lead.
+> - **Who Consumes It:** New Client / Business Owner (during project kickoff).
+> - **How to Use It:** Send this document to new clients immediately after contract signing to gather brand assets and delegate access securely.
+
+---
+
 **Asset ID:** CC-ONB-001
 **Category:** Client Onboarding
 **Client:** [CLIENT_NAME] | **Business:** [BUSINESS_NAME]

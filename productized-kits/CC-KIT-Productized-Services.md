@@ -1,5 +1,15 @@
 # EASY PRODUCTIZED CLIENT KITS
 
+> **DOCUMENT SUMMARY & PURPOSE:**
+> - **File Purpose:** Defines productized client deliverable kits, target pricing, included assets, and upsell ascensions.
+> - **Who Prepares It:** Agency Founder & Business Strategist.
+> - **Who Consumes It:** Sales Representatives & Agency Account Executives.
+> - **How to Use It:** Reference these 5 structured packages during sales conversations to present fixed-scope, value-priced deliverables.
+
+---
+
+**Asset ID:** CC-KIT-Productized-Services
+**Category:** Productized Kits
 **Client:** [CLIENT_NAME] | **Business:** [BUSINESS_NAME]
 
 ---

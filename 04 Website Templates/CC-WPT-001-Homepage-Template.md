@@ -1,5 +1,13 @@
 # CC-WPT-001: SIMPLE HOMEPAGE LAYOUT GUIDE
 
+> **DOCUMENT SUMMARY & PURPOSE:**
+> - **File Purpose:** Specifies the section-by-section visual hierarchy and copy layout for assembling the client's high-converting homepage in WordPress.
+> - **Who Prepares It:** UI/UX Designer & Information Architect.
+> - **Who Consumes It:** WordPress Developer (building the site layout) & Direct-Response Copywriter (filling in section text).
+> - **How to Use It:** Follow this page layout order when creating the main page template in WordPress to guide visitors from awareness to conversion.
+
+---
+
 **Asset ID:** CC-WPT-001
 **Category:** Website Templates
 **Client:** [CLIENT_NAME] | **Business:** [BUSINESS_NAME]

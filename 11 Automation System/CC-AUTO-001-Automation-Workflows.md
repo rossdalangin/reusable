@@ -1,5 +1,13 @@
 # CC-AUTO-001: EASY AUTOMATION WORKFLOWS
 
+> **DOCUMENT SUMMARY & PURPOSE:**
+> - **File Purpose:** Maps step-by-step logic, triggers, conditions, delays, and CRM tags for lead routing and calendar appointment reminders.
+> - **Who Prepares It:** Automation Architect & Workflow Specialist.
+> - **Who Consumes It:** Automation Engineers configuring platforms like Zapier, Make, or ActiveCampaign.
+> - **How to Use It:** Follow these step-by-step logic rules when setting up automation recipes in your CRM platform.
+
+---
+
 **Asset ID:** CC-AUTO-001
 **Category:** Automation System
 **Client:** [CLIENT_NAME] | **Business:** [BUSINESS_NAME]

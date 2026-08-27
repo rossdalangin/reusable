@@ -1,5 +1,11 @@
 /*
  * Client Growth System - Core Modular Stylesheet (CC-WP-CSS-001)
+ *
+ * DOCUMENT SUMMARY & PURPOSE:
+ * - File Purpose: Provides lightweight, modular CSS styling rules and custom variables for all Client Growth System components.
+ * - Who Prepares It: Senior Web Designer & Front-End Developer.
+ * - Who Consumes It: Web Browsers rendering the client's WordPress website.
+ * - How to Use It: Enqueue in WordPress functions.php via wp_enqueue_style('cgs-components-css', ...).
  */
 
 :root {

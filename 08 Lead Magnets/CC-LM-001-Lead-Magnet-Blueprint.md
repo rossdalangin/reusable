@@ -1,5 +1,13 @@
 # CC-LM-001: SIMPLE & ACTIONABLE LEAD MAGNET BLUEPRINT
 
+> **DOCUMENT SUMMARY & PURPOSE:**
+> - **File Purpose:** Outlines the core concept, lessons, format, and promotion strategy for creating a high-converting lead magnet.
+> - **Who Prepares It:** Content Strategist & Lead Magnet Specialist.
+> - **Who Consumes It:** Client / Business Owner (creating content) & Design Team (formatting PDF/video).
+> - **How to Use It:** Follow this 5-step lesson structure to generate a PDF checklist or video audit resource for potential clients.
+
+---
+
 **Asset ID:** CC-LM-001
 **Category:** Lead Magnet System
 **Client:** [CLIENT_NAME] | **Business:** [BUSINESS_NAME]

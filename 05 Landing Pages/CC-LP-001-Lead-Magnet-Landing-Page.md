@@ -1,5 +1,13 @@
 # CC-LP-001: SIMPLE LEAD MAGNET LANDING PAGE
 
+> **DOCUMENT SUMMARY & PURPOSE:**
+> - **File Purpose:** Outlines the structure, copy blocks, and conversion flow for dedicated lead magnet landing pages.
+> - **Who Prepares It:** Direct-Response Copywriter & Landing Page Designer.
+> - **Who Consumes It:** Website Visitors (cold/warm traffic) & Agency Development Team.
+> - **How to Use It:** Deploy as a standalone landing page template in WordPress to convert visitors into email leads.
+
+---
+
 **Asset ID:** CC-LP-001
 **Category:** Landing Page System
 **Client:** [CLIENT_NAME] | **Business:** [BUSINESS_NAME]

@@ -2,7 +2,12 @@
 /**
  * Component: FAQ Accordion (CC-WP-002)
  * Package: Client Growth System Generator
- * Description: Easy-to-read FAQ section answering common questions in plain English.
+ *
+ * DOCUMENT SUMMARY & PURPOSE:
+ * - Component Purpose: Renders an accessible, Schema.org microdata-enabled FAQ accordion section to address customer objections.
+ * - Who Prepares It: WordPress Developer & Technical SEO Specialist.
+ * - Who Consumes It: Website Visitors (prospects) & Search Engine Crawlers (Google Rich Snippets).
+ * - How to Use It: Include in theme template parts or pass custom FAQ arrays via the 'cgs_faqs' query variable.
  */
 
 if ( ! defined( 'ABSPATH' ) ) {

@@ -1,5 +1,13 @@
 # CC-BRD-001: SIMPLE & CLEAR BRAND POSITIONING
 
+> **DOCUMENT SUMMARY & PURPOSE:**
+> - **File Purpose:** Establishes the foundational brand promise, unique mechanism, tone of voice, and positioning statements for the client's business.
+> - **Who Prepares It:** Lead Brand Strategist & Copywriter.
+> - **Who Consumes It:** Client / Business Owner (for brand clarity) & Agency Copywriters/Designers (as the single source of truth for messaging).
+> - **How to Use It:** Reference this document before writing any website copy, emails, ads, or social media posts to ensure 100% brand consistency.
+
+---
+
 **Asset ID:** CC-BRD-001
 **Category:** Brand Foundation
 **Target Audience:** [TARGET_AUDIENCE]

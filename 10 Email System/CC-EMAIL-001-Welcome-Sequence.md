@@ -1,5 +1,13 @@
 # CC-EMAIL-001: WARM & FRIENDLY WELCOME EMAIL SEQUENCE
 
+> **DOCUMENT SUMMARY & PURPOSE:**
+> - **File Purpose:** Provides pre-written, humanized email copy templates for autoresponders after lead magnet downloads.
+> - **Who Prepares It:** Direct-Response Copywriter.
+> - **Who Consumes It:** Email Marketing Software (ActiveCampaign, Mailchimp, etc.) & Email Subscribers.
+> - **How to Use It:** Load these email drafts into your email marketing autoresponder and turn on the campaign trigger.
+
+---
+
 **Asset ID:** CC-EMAIL-001
 **Category:** Email System
 **Client:** [CLIENT_NAME] | **Business:** [BUSINESS_NAME]

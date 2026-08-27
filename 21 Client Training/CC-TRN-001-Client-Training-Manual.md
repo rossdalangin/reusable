@@ -1,5 +1,13 @@
 # CC-TRN-001: YOUR EASY SYSTEM USER GUIDE
 
+> **DOCUMENT SUMMARY & PURPOSE:**
+> - **File Purpose:** Serves as a friendly handoff manual explaining how non-technical business owners can manage leads and appointments.
+> - **Who Prepares It:** Client Success Manager.
+> - **Who Consumes It:** Client / Business Owner & Support Staff.
+> - **How to Use It:** Deliver this manual during the project handoff call to empower the client to operate their system.
+
+---
+
 **Asset ID:** CC-TRN-001
 **Category:** Client Training
 **Client:** [CLIENT_NAME] | **Business:** [BUSINESS_NAME]

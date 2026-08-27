@@ -1,5 +1,13 @@
 # CC-AUD-001: EASY WEBSITE HEALTH CHECKLIST
 
+> **DOCUMENT SUMMARY & PURPOSE:**
+> - **File Purpose:** Provides an easy audit checklist to evaluate website speed, SSL security, SEO tags, forms, and accessibility.
+> - **Who Prepares It:** Technical SEO & Web Performance Auditor.
+> - **Who Consumes It:** Agency Team (auditing prospect websites) & Client (seeing current health score).
+> - **How to Use It:** Complete this checklist during client discovery to uncover technical issues and conversion leaks.
+
+---
+
 **Asset ID:** CC-AUD-001
 **Category:** SEO Audit System
 **Client:** [CLIENT_NAME] | **Business:** [BUSINESS_NAME]

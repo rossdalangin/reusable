@@ -2,7 +2,12 @@
 /**
  * Component: Hero Section (CC-WP-001)
  * Package: Client Growth System Generator
- * Description: Friendly, simple hero section built for clarity and conversions.
+ *
+ * DOCUMENT SUMMARY & PURPOSE:
+ * - Component Purpose: Renders a high-converting, mobile-ready hero section with badges, headlines, subheadlines, and CTAs.
+ * - Who Prepares It: Senior WordPress Developer & UI/UX Designer.
+ * - Who Consumes It: Website Visitors (end users) & WordPress Theme Developers.
+ * - How to Use It: Include in theme template files using get_template_part() or set query vars (cgs_hero_headline, cgs_hero_cta_url).
  */
 
 if ( ! defined( 'ABSPATH' ) ) {

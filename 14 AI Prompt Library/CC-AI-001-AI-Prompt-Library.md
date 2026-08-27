@@ -1,5 +1,13 @@
 # CC-AI-001: EASY AI PROMPTS FOR BUSINESS OWNERS
 
+> **DOCUMENT SUMMARY & PURPOSE:**
+> - **File Purpose:** Contains ready-to-use AI prompts for ChatGPT, Claude, and Gemini to generate positioning, social copy, and offer messaging.
+> - **Who Prepares It:** AI Prompt Engineer.
+> - **Who Consumes It:** Client / Business Owner & Content Creators.
+> - **How to Use It:** Copy and paste these exact prompts into ChatGPT or Claude after replacing placeholders (`[BUSINESS_NAME]`, `[TARGET_AUDIENCE]`).
+
+---
+
 **Asset ID:** CC-AI-001
 **Category:** AI Prompt Library
 **Client:** [CLIENT_NAME] | **Business:** [BUSINESS_NAME]

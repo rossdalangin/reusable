@@ -1,5 +1,13 @@
 # CC-REP-001: EASY MONTHLY PERFORMANCE REPORT
 
+> **DOCUMENT SUMMARY & PURPOSE:**
+> - **File Purpose:** Provides a clean monthly KPI tracking table and actionable recommendations framework for client reporting.
+> - **Who Prepares It:** Analytics Specialist / Account Manager.
+> - **Who Consumes It:** Client / Business Owner & Agency Leadership.
+> - **How to Use It:** Fill out this reporting template at the end of each month to demonstrate campaign ROI and outline next steps.
+
+---
+
 **Asset ID:** CC-REP-001
 **Category:** Reporting Dashboard
 **Client:** [CLIENT_NAME] | **Business:** [BUSINESS_NAME]
