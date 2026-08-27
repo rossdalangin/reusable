@@ -1,7 +1,7 @@
 # CC-SOP-001: STEP-BY-STEP IMPLEMENTATION GUIDE
 
 > **DOCUMENT SUMMARY & PURPOSE:**
-> - **File Purpose:** Standardizes the internal step-by-step procedures, team owners, quality control checklists, and definition of done for agency delivery.
+> - **File Purpose:** Standardizes the internal step-by-step procedures, team owners, quality control checklists, HTML component integration, and definition of done for agency delivery.
 > - **Who Prepares It:** Operations Manager & Technical Lead.
 > - **Who Consumes It:** Agency Project Managers, WordPress Developers, and Copywriters.
 > - **How to Use It:** Execute this SOP sequentially during every client build to guarantee flawless, on-time project delivery.
@@ -18,6 +18,6 @@
 
 1. **Step 1 - Welcome & Setup:** We collect your intake form (`CC-ONB-001`) and safely connect to your website.
 2. **Step 2 - Crafting Your Message:** We finalize your core offer message (`CC-STR-001`) and brand positioning (`CC-BRD-001`).
-3. **Step 3 - Building Your WordPress Site:** We install fast, easy-to-use template components (`hero-section.php`, `faq-accordion.php`).
+3. **Step 3 - Building Your WordPress & HTML Site:** We install fast, easy-to-use template components (`03 WordPress/html-components/`, `hero-section.php`, `faq-accordion.php`, `cgs-interactive.js`).
 4. **Step 4 - Setting Up Forms & Emails:** We turn on automatic lead forms (`cgs-form-handler.php`) and friendly email sequences (`CC-EMAIL-001`).
 5. **Step 5 - Launch & Training:** We test everything, launch your site, and walk you through your simple client manual (`CC-TRN-001`).

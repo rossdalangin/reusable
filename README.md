@@ -12,9 +12,16 @@ This master documentation provides an in-depth breakdown of every folder and fil
 CLIENT GROWTH SYSTEM
 ├── 01 Brand/                            # Brand positioning & core messaging framework
 ├── 02 Strategy/                         # Offer architecture & customer journey maps
-├── 03 WordPress/                        # High-performance PHP theme components & modular CSS
+├── 03 WordPress/                        # High-performance PHP theme components, HTML components, CSS & JS
+│   ├── html-components/                 # Modular HTML samples (header, hero, features, pricing, etc.)
+│   ├── hero-section.php                 # PHP hero component
+│   ├── faq-accordion.php                # PHP FAQ component
+│   ├── cgs-components.css               # Core CSS stylesheet
+│   └── cgs-interactive.js               # Interactive JS (accordions, mobile nav)
 ├── 04 Website Templates/                # Strategic homepage & website page layouts
+│   └── html-templates/                  # Ready-to-use HTML templates (homepage, services, about, contact)
 ├── 05 Landing Pages/                    # High-converting lead magnet landing pages
+│   └── html-landing-pages/              # Standalone HTML landing page samples
 ├── 06 CTA System/                       # Reusable Call-to-Action (CTA) library
 ├── 07 Lead Capture/                     # Secure WordPress form handlers & shortcodes
 ├── 08 Lead Magnets/                     # Interactive lead magnet blueprints & guide frameworks
@@ -43,7 +50,7 @@ To ensure seamless implementation, the system clarifies roles across three prima
 
 1. **PROVIDER / CREATOR (Agency Team):**
    - **Lead Strategist:** Defines brand positioning, customer journey, and offer pricing.
-   - **WordPress Developer:** Deploys PHP components, form handlers, CSS, and security nonces.
+   - **WordPress Developer:** Deploys PHP/HTML components, form handlers, CSS, JS, and security nonces.
    - **Direct-Response Copywriter:** Customizes email sequences, sales scripts, and landing pages.
    - **Media & Automation Architect:** Configures CRM workflows, AI prompts, and video scripts.
 
@@ -77,24 +84,28 @@ To ensure seamless implementation, the system clarifies roles across three prima
 
 ---
 
-### MODULE 03 — WORDPRESS FOUNDATION
+### MODULE 03 — WORDPRESS FOUNDATION & HTML COMPONENTS
 - **Folder Path:** `03 WordPress/`
 - **Files:**
+  - `html-components/` (`header.html`, `hero.html`, `features.html`, `testimonials.html`, `pricing.html`, `faq.html`, `cta-banner.html`, `footer.html`): Production-ready modular HTML component samples for fast front-end assembly.
   - `hero-section.php` (`CC-WP-001`): A modular PHP hero template part featuring escaped variables (`esc_html`, `esc_url`), badge callouts, accessible ARIA attributes, and primary CTA buttons.
   - `faq-accordion.php` (`CC-WP-002`): An interactive PHP FAQ component built with Schema.org microdata for enhanced search engine visibility.
   - `cgs-components.css` (`CC-WP-CSS-001`): A clean, lightweight CSS stylesheet utilizing CSS variables for consistent typography, colors, and responsive layouts.
+  - `cgs-interactive.js`: Vanilla JS script providing mobile navigation toggles, aria accessibility updates, and interactive FAQ accordion toggling.
 - **Purpose & Usage:** Provides fast, modular, mobile-ready code blocks to assemble WordPress websites quickly without visual page builder bloat.
-- **Who Prepares It:** Senior WordPress Developer.
-- **Who Uses It:** Agency Development Team.
+- **Who Prepares It:** Senior WordPress Developer & Web Designer.
+- **Who Uses It:** Agency Development Team & Web Browsers.
 - **How It Fits:** Guarantees top Core Web Vitals performance (>90 score) and accessible user experience across all devices.
 
 ---
 
 ### MODULE 04 — WEBSITE TEMPLATES
 - **Folder Path:** `04 Website Templates/`
-- **File:** `CC-WPT-001-Homepage-Template.md`
-- **Purpose & Usage:** Provides a section-by-section strategic homepage layout specifying exact placements for hero sections, social proof, service cards, and CTAs.
-- **Who Prepares It:** UI/UX Designer & Information Architect.
+- **Files:**
+  - `CC-WPT-001-Homepage-Template.md`: Strategic section-by-section homepage layout guide.
+  - `html-templates/` (`homepage.html`, `services.html`, `about.html`, `contact.html`): Complete, fully-coded HTML page templates combining header, hero, features, testimonials, pricing, and footer components.
+- **Purpose & Usage:** Provides a turnkey HTML/CSS layout blueprint for assembling full client websites in minutes.
+- **Who Prepares It:** UI/UX Designer & Front-End Developer.
 - **Who Uses It:** WordPress Developer (building the site layout).
 - **How It Fits:** Directs website visitors along a clear psychological path from initial interest to booking a call.
 
@@ -102,8 +113,10 @@ To ensure seamless implementation, the system clarifies roles across three prima
 
 ### MODULE 05 — LANDING PAGE SYSTEM
 - **Folder Path:** `05 Landing Pages/`
-- **File:** `CC-LP-001-Lead-Magnet-Landing-Page.md`
-- **Purpose & Usage:** Blueprint for high-converting lead magnet landing pages designed to turn cold visitors into email subscribers.
+- **Files:**
+  - `CC-LP-001-Lead-Magnet-Landing-Page.md`: Strategic landing page copy framework.
+  - `html-landing-pages/` (`lead-magnet-lp.html`, `discovery-call-lp.html`, `service-sales-lp.html`): Fully-coded standalone HTML landing pages optimized for high conversion rates.
+- **Purpose & Usage:** High-converting landing page samples designed to turn cold visitors into email subscribers and scheduled strategy calls.
 - **Who Prepares It:** Direct-Response Copywriter & CRO Specialist.
 - **Who Uses It:** Agency Team (to deploy landing pages).
 - **How It Fits:** Captures prospect contact information at scale.

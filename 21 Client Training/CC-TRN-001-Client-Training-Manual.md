@@ -1,7 +1,7 @@
 # CC-TRN-001: YOUR EASY SYSTEM USER GUIDE
 
 > **DOCUMENT SUMMARY & PURPOSE:**
-> - **File Purpose:** Serves as a friendly handoff manual explaining how non-technical business owners can manage leads and appointments.
+> - **File Purpose:** Serves as a friendly handoff manual explaining how non-technical business owners can manage leads, HTML components, and appointments.
 > - **Who Prepares It:** Client Success Manager.
 > - **Who Consumes It:** Client / Business Owner & Support Staff.
 > - **How to Use It:** Deliver this manual during the project handoff call to empower the client to operate their system.
@@ -23,6 +23,6 @@ Congratulations on launching your **Client Growth System**! This simple guide sh
 2. Click on **Leads** in the left menu bar.
 3. Every time someone fills out a form, you will also get an instant email notification!
 
-## 2. MANAGING YOUR APPOINTMENTS
+## 2. MANAGING YOUR APPOINTMENTS & TEMPLATES
 - All booked calls automatically appear on your calendar via [BOOKING_URL].
-- Simply check your calendar each morning to see your upcoming chats.
+- Your site includes ready-to-use HTML sample templates located in `04 Website Templates/html-templates/` for easy reference.

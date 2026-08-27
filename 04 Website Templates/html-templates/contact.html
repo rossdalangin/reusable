@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | [BUSINESS_NAME]</title>
+  <meta name="description" content="Get in touch with [CLIENT_NAME] at [BUSINESS_NAME] or book a free 30-minute strategy call today.">
+  <link rel="stylesheet" href="../../03 WordPress/cgs-components.css">
+</head>
+<body>
+
+  <header class="cgs-header">
+    <div class="cgs-container cgs-header-container">
+      <a href="homepage.html" class="cgs-logo">[BUSINESS_NAME]</a>
+      <button class="cgs-mobile-toggle" aria-label="Toggle Navigation Menu">☰</button>
+      <nav class="cgs-nav">
+        <ul class="cgs-menu">
+          <li><a href="about.html">About</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <a href="[BOOKING_URL]" class="cgs-btn cgs-btn-primary">Book Strategy Chat</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="cgs-hero-section">
+    <div class="cgs-container">
+      <h1 class="cgs-hero-title">Let's Talk About Your Growth</h1>
+      <p class="cgs-hero-subtitle">Fill out the quick form below or pick a time directly on our calendar.</p>
+    </div>
+  </section>
+
+  <section class="cgs-features-section">
+    <div class="cgs-container" style="max-width: 600px;">
+      <form class="cgs-form" action="#" method="POST">
+        <div class="cgs-form-group">
+          <label for="full-name">What is your name? *</label>
+          <input type="text" id="full-name" name="full_name" required placeholder="Jane Smith">
+        </div>
+        <div class="cgs-form-group">
+          <label for="work-email">What is your email address? *</label>
+          <input type="email" id="work-email" name="work_email" required placeholder="jane@[BUSINESS_NAME].com">
+        </div>
+        <div class="cgs-form-group">
+          <label for="goal">What is your primary growth goal? *</label>
+          <select id="goal" name="goal" required>
+            <option value="">Choose an option...</option>
+            <option value="More Leads">I need more qualified leads</option>
+            <option value="Higher Conversion">I want my website to get more inquiries</option>
+          </select>
+        </div>
+        <button type="submit" class="cgs-btn cgs-btn-primary">Send Inquiry →</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="cgs-footer">
+    <div class="cgs-container cgs-footer-container">
+      <p>&copy; 2026 [BUSINESS_NAME]. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="../../03 WordPress/cgs-interactive.js"></script>
+</body>
+</html>

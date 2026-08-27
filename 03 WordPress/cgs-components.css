@@ -20,12 +20,77 @@
   --cgs-font: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+  font-family: var(--cgs-font);
+  color: var(--cgs-text);
+  background-color: var(--cgs-bg);
+  line-height: 1.6;
+}
+
 .cgs-container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 1.5rem;
 }
 
+/* HEADER */
+.cgs-header {
+  background-color: var(--cgs-bg);
+  border-bottom: 1px solid #e2e8f0;
+  padding: 1rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.cgs-header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cgs-logo {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--cgs-text-dark);
+  text-decoration: none;
+}
+
+.cgs-mobile-toggle {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.cgs-nav {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.cgs-menu {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  gap: 1.5rem;
+}
+
+.cgs-menu a {
+  text-decoration: none;
+  color: var(--cgs-text);
+  font-weight: 500;
+}
+
+.cgs-menu a:hover {
+  color: var(--cgs-accent);
+}
+
+/* HERO */
 .cgs-hero-section {
   padding: 5rem 0;
   background-color: var(--cgs-surface);
@@ -57,15 +122,20 @@
   margin: 0 auto 2rem auto;
 }
 
-.cgs-btn-primary {
+.cgs-btn {
   display: inline-block;
-  background-color: var(--cgs-accent);
-  color: #fff;
   padding: 0.875rem 2rem;
   font-weight: 600;
   border-radius: var(--cgs-radius);
   text-decoration: none;
-  transition: background-color 0.2s ease;
+  transition: all 0.2s ease;
+  border: none;
+  cursor: pointer;
+}
+
+.cgs-btn-primary {
+  background-color: var(--cgs-accent);
+  color: #fff;
 }
 
 .cgs-btn-primary:hover,
@@ -73,6 +143,137 @@
   background-color: var(--cgs-accent-hover);
 }
 
+.cgs-btn-secondary {
+  background-color: var(--cgs-surface);
+  color: var(--cgs-text-dark);
+  border: 1px solid #cbd5e1;
+}
+
+/* FEATURES */
+.cgs-features-section {
+  padding: 5rem 0;
+  text-align: center;
+}
+
+.cgs-section-title {
+  font-size: 2rem;
+  color: var(--cgs-text-dark);
+  margin-bottom: 0.5rem;
+}
+
+.cgs-section-subtitle {
+  font-size: 1.125rem;
+  margin-bottom: 3rem;
+}
+
+.cgs-features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+}
+
+.cgs-feature-card {
+  padding: 2rem;
+  background: var(--cgs-surface);
+  border-radius: var(--cgs-radius);
+  border: 1px solid #e2e8f0;
+}
+
+.cgs-feature-icon {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+/* PRICING */
+.cgs-pricing-section {
+  padding: 5rem 0;
+  background-color: var(--cgs-surface);
+}
+
+.cgs-pricing-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.cgs-pricing-card {
+  padding: 2.5rem;
+  background: var(--cgs-bg);
+  border-radius: var(--cgs-radius);
+  border: 1px solid #e2e8f0;
+  text-align: center;
+  position: relative;
+}
+
+.cgs-pricing-featured {
+  border: 2px solid var(--cgs-accent);
+}
+
+.cgs-pricing-badge {
+  position: absolute;
+  top: -12px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: var(--cgs-accent);
+  color: #fff;
+  padding: 0.25rem 0.75rem;
+  font-size: 0.75rem;
+  font-weight: 700;
+  border-radius: 9999px;
+  text-transform: uppercase;
+}
+
+.cgs-pricing-amount {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: var(--cgs-text-dark);
+  margin: 1.5rem 0;
+}
+
+.cgs-pricing-period {
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--cgs-text);
+}
+
+.cgs-pricing-list {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 2rem 0;
+  text-align: left;
+}
+
+.cgs-pricing-list li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #f1f5f9;
+}
+
+/* TESTIMONIALS */
+.cgs-testimonials-section {
+  padding: 5rem 0;
+}
+
+.cgs-testimonials-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.cgs-testimonial-card {
+  padding: 2rem;
+  border: 1px solid #e2e8f0;
+  border-radius: var(--cgs-radius);
+  background: var(--cgs-bg);
+}
+
+.cgs-testimonial-quote {
+  font-style: italic;
+  margin-bottom: 1.5rem;
+}
+
+/* FAQ */
 .cgs-faq-section {
   padding: 4rem 0;
 }
@@ -91,8 +292,128 @@
   width: 100%;
   text-align: left;
   cursor: pointer;
+  padding: 0.5rem 0;
 }
 
 .cgs-faq-answer[hidden] {
   display: none;
+}
+
+/* CTA BANNER */
+.cgs-cta-banner {
+  padding: 5rem 0;
+  background-color: var(--cgs-primary);
+  color: #fff;
+  text-align: center;
+}
+
+.cgs-cta-title {
+  font-size: 2.25rem;
+  margin-bottom: 1rem;
+  color: #fff;
+}
+
+.cgs-cta-subtitle {
+  color: #94a3b8;
+  max-width: 600px;
+  margin: 0 auto 2rem auto;
+}
+
+/* FORMS */
+.cgs-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1.25rem;
+}
+
+.cgs-form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.cgs-form-group label {
+  font-weight: 600;
+  color: var(--cgs-text-dark);
+}
+
+.cgs-form-group input,
+.cgs-form-group select {
+  padding: 0.75rem 1rem;
+  border: 1px solid #cbd5e1;
+  border-radius: var(--cgs-radius);
+  font-size: 1rem;
+}
+
+/* FOOTER */
+.cgs-footer {
+  background: #020617;
+  color: #94a3b8;
+  padding: 3rem 0;
+}
+
+.cgs-footer-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
+.cgs-footer-col {
+  flex: 1;
+  min-width: 200px;
+}
+
+.cgs-footer-brand {
+  color: #fff;
+  font-size: 1.25rem;
+  margin-bottom: 0.5rem;
+}
+
+.cgs-footer-title {
+  color: #fff;
+  margin-bottom: 1rem;
+}
+
+.cgs-footer-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.cgs-footer-links a {
+  color: #94a3b8;
+  text-decoration: none;
+}
+
+.cgs-footer-links a:hover {
+  color: #fff;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .cgs-mobile-toggle {
+    display: block;
+  }
+
+  .cgs-nav {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 1rem;
+  }
+
+  .cgs-nav.cgs-nav-open {
+    display: flex;
+  }
+
+  .cgs-menu {
+    flex-direction: column;
+    gap: 0.75rem;
+    width: 100%;
+  }
+
+  .cgs-hero-title {
+    font-size: 2rem;
+  }
 }
