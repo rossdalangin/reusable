@@ -1,11 +1,5 @@
 /*
- * Client Growth System - Core Modular Stylesheet (CC-WP-CSS-001)
- *
- * DOCUMENT SUMMARY & PURPOSE:
- * - File Purpose: Provides lightweight, modular CSS styling rules and custom variables for all Client Growth System components.
- * - Who Prepares It: Senior Web Designer & Front-End Developer.
- * - Who Consumes It: Web Browsers rendering the client's WordPress website.
- * - How to Use It: Enqueue in WordPress functions.php via wp_enqueue_style('cgs-components-css', ...).
+ * Client Growth System - Core Modular Stylesheet (CC-WP-CSS-001) - HIGH CONVERTING
  */
 
 :root {
@@ -90,11 +84,34 @@ body {
   color: var(--cgs-accent);
 }
 
+/* URGENCY BANNER */
+.cgs-urgency-banner {
+  background-color: #fef3c7;
+  color: #92400e;
+  padding: 0.5rem 0;
+  text-align: center;
+  font-size: 0.875rem;
+  border-bottom: 1px solid #fde68a;
+}
+
 /* HERO */
 .cgs-hero-section {
   padding: 5rem 0;
   background-color: var(--cgs-surface);
   text-align: center;
+}
+
+.cgs-rating-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background: #ffffff;
+  padding: 0.35rem 1rem;
+  border-radius: 9999px;
+  border: 1px solid #e2e8f0;
+  font-size: 0.875rem;
+  font-weight: 600;
+  margin-bottom: 1.25rem;
 }
 
 .cgs-badge {
@@ -106,6 +123,11 @@ body {
   border-radius: 9999px;
   font-size: 0.875rem;
   margin-bottom: 1rem;
+}
+
+.cgs-badge-light {
+  background: rgba(255, 255, 255, 0.15);
+  color: #fff;
 }
 
 .cgs-hero-title {
@@ -133,6 +155,17 @@ body {
   cursor: pointer;
 }
 
+.cgs-btn-large {
+  padding: 1.125rem 2.5rem;
+  font-size: 1.125rem;
+  box-shadow: 0 10px 15px -3px rgba(37, 99, 235, 0.3);
+}
+
+.cgs-btn-small {
+  padding: 0.5rem 1.25rem;
+  font-size: 0.875rem;
+}
+
 .cgs-btn-primary {
   background-color: var(--cgs-accent);
   color: #fff;
@@ -141,12 +174,121 @@ body {
 .cgs-btn-primary:hover,
 .cgs-btn-primary:focus {
   background-color: var(--cgs-accent-hover);
+  transform: translateY(-1px);
 }
 
 .cgs-btn-secondary {
   background-color: var(--cgs-surface);
   color: var(--cgs-text-dark);
   border: 1px solid #cbd5e1;
+}
+
+.cgs-micro-copy {
+  font-size: 0.8125rem;
+  color: #64748b;
+  margin-top: 0.75rem;
+}
+
+.cgs-micro-copy-light {
+  color: #94a3b8;
+}
+
+.cgs-proof-bar {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-top: 2.5rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #475569;
+  flex-wrap: wrap;
+}
+
+/* COMPARISON GRID */
+.cgs-comparison-section {
+  padding: 5rem 0;
+  background-color: #ffffff;
+}
+
+.cgs-comparison-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.cgs-comparison-card {
+  padding: 2.5rem;
+  border-radius: var(--cgs-radius);
+  position: relative;
+}
+
+.cgs-card-old {
+  background-color: #fff1f2;
+  border: 1px solid #fecdd3;
+}
+
+.cgs-card-new {
+  background-color: #f0fdf4;
+  border: 2px solid #22c55e;
+}
+
+.cgs-card-badge {
+  position: absolute;
+  top: -12px;
+  right: 20px;
+  background-color: #22c55e;
+  color: #fff;
+  padding: 0.25rem 0.75rem;
+  border-radius: 9999px;
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.cgs-comparison-list {
+  list-style: none;
+  padding: 0;
+  margin: 1.5rem 0 0 0;
+}
+
+.cgs-comparison-list li {
+  padding: 0.5rem 0;
+  font-weight: 500;
+}
+
+/* LANDING PAGE GRID */
+.cgs-lp-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 3rem;
+  align-items: center;
+  text-align: left;
+}
+
+.cgs-lp-benefits {
+  list-style: none;
+  padding: 0;
+  margin: 1.5rem 0;
+}
+
+.cgs-lp-benefits li {
+  padding: 0.75rem 0;
+  font-size: 1.05rem;
+  border-bottom: 1px solid #f1f5f9;
+}
+
+.cgs-lp-form-box {
+  background: #ffffff;
+  padding: 2.5rem;
+  border-radius: var(--cgs-radius);
+  border: 1px solid #e2e8f0;
+  box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.05);
+}
+
+.cgs-form-title {
+  margin-top: 0;
+  font-size: 1.35rem;
+  color: var(--cgs-text-dark);
 }
 
 /* FEATURES */
@@ -266,11 +408,27 @@ body {
   border: 1px solid #e2e8f0;
   border-radius: var(--cgs-radius);
   background: var(--cgs-bg);
+  text-align: left;
+}
+
+.cgs-testimonial-rating {
+  margin-bottom: 0.75rem;
 }
 
 .cgs-testimonial-quote {
   font-style: italic;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.25rem;
+}
+
+.cgs-testimonial-metric {
+  display: inline-block;
+  padding: 0.25rem 0.5rem;
+  background: #dcfce7;
+  color: #166534;
+  font-weight: 700;
+  font-size: 0.8125rem;
+  border-radius: 4px;
+  margin-bottom: 1rem;
 }
 
 /* FAQ */
@@ -319,6 +477,30 @@ body {
   margin: 0 auto 2rem auto;
 }
 
+/* STICKY FLOATING BAR */
+.cgs-sticky-bar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background: #020617;
+  color: #fff;
+  padding: 0.75rem 0;
+  box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.15);
+  z-index: 99;
+}
+
+.cgs-sticky-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cgs-sticky-text {
+  font-weight: 600;
+  font-size: 0.9375rem;
+}
+
 /* FORMS */
 .cgs-form {
   display: flex;
@@ -349,7 +531,7 @@ body {
 .cgs-footer {
   background: #020617;
   color: #94a3b8;
-  padding: 3rem 0;
+  padding: 3rem 0 5rem 0;
 }
 
 .cgs-footer-container {
@@ -359,39 +541,12 @@ body {
   gap: 2rem;
 }
 
-.cgs-footer-col {
-  flex: 1;
-  min-width: 200px;
-}
-
-.cgs-footer-brand {
-  color: #fff;
-  font-size: 1.25rem;
-  margin-bottom: 0.5rem;
-}
-
-.cgs-footer-title {
-  color: #fff;
-  margin-bottom: 1rem;
-}
-
-.cgs-footer-links {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.cgs-footer-links a {
-  color: #94a3b8;
-  text-decoration: none;
-}
-
-.cgs-footer-links a:hover {
-  color: #fff;
-}
-
 /* RESPONSIVE */
 @media (max-width: 768px) {
+  .cgs-lp-grid {
+    grid-template-columns: 1fr;
+  }
+
   .cgs-mobile-toggle {
     display: block;
   }
@@ -415,5 +570,11 @@ body {
 
   .cgs-hero-title {
     font-size: 2rem;
+  }
+
+  .cgs-sticky-container {
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
   }
 }
